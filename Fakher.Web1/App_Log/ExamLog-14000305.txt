@@ -1,0 +1,12 @@
+http://localhost:54411/Student/OnlineExam/default.aspx|07:16:34 ق.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0]|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/default.aspx|07:19:25 ق.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0]|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|07:19:38 ق.ظ|مریم دهقان (178968)|Defibrillate Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|07:19:42 ق.ظ|مریم دهقان (178968)|Started Exam|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|07:19:42 ق.ظ|مریم دهقان (178968)|Initialized Page #1 Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|07:31:11 ق.ظ|مریم دهقان (181733)|Defibrillate Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|07:31:14 ق.ظ|مریم دهقان (181733)|Started Exam|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|07:31:14 ق.ظ|مریم دهقان (181733)|Initialized Page #1 Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|07:31:45 ق.ظ|مریم دهقان (179861)|Defibrillate Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|07:31:49 ق.ظ|مریم دهقان (178968)|Defibrillate Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|07:31:54 ق.ظ|مریم دهقان (178968)|Started Exam|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|07:31:54 ق.ظ|مریم دهقان (178968)|Initialized Page #1 Raw()|cfidkqiglgoekiiuaxdjtqxv|127.0.0.1

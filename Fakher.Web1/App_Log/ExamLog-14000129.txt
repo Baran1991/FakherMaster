@@ -1,0 +1,3 @@
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|05:38:42 ب.ظ|No ExamParticipate|Redirect(OEP is null)|qgnrb5xpbhkb1bd5mp3ebgt5|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|06:30:54 ب.ظ|رخسار ایوبی ایوبلو (174937)|Started Exam|qgnrb5xpbhkb1bd5mp3ebgt5|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:31:03 ب.ظ|رخسار ایوبی ایوبلو (174937)|Initialized Page #1 Raw()|qgnrb5xpbhkb1bd5mp3ebgt5|127.0.0.1

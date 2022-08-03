@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Fakher.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\app.config" />
+  <event action="Analyze" type="Success" name="CameraBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\CameraBox.resx" />
+  <event action="Analyze" type="Success" name="DepartmentSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\DepartmentSelector.resx" />
+  <event action="Analyze" type="Success" name="ExamPageItemControl.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\ExamPageItemControl.resx" />
+  <event action="Analyze" type="Success" name="ExamParticipateInfo.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\ExamParticipateInfo.resx" />
+  <event action="Analyze" type="Success" name="ExamSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\ExamSelector.resx" />
+  <event action="Analyze" type="Success" name="FinancialDocumentView.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\FinancialDocumentView.resx" />
+  <event action="Analyze" type="Success" name="LessonSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\LessonSelector.resx" />
+  <event action="Analyze" type="Success" name="LessonSelectorTeacher.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\LessonSelectorTeacher.resx" />
+  <event action="Analyze" type="Success" name="MajorSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\MajorSelector.resx" />
+  <event action="Analyze" type="Success" name="MajorSelectorTeacher.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\MajorSelectorTeacher.resx" />
+  <event action="Analyze" type="Success" name="MessageThreadView.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\MessageThreadView.resx" />
+  <event action="Analyze" type="Success" name="MessageView.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\MessageView.resx" />
+  <event action="Analyze" type="Success" name="PaymentControl.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\PaymentControl.resx" />
+  <event action="Analyze" type="Success" name="PreEnrollmentSearchBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\PreEnrollmentSearchBox.resx" />
+  <event action="Analyze" type="Success" name="ReceiverSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\ReceiverSelector.resx" />
+  <event action="Analyze" type="Success" name="RegisterSearchBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\RegisterSearchBox.resx" />
+  <event action="Analyze" type="Success" name="ReserveSearchBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\ReserveSearchBox.resx" />
+  <event action="Analyze" type="Success" name="SectionItemSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\SectionItemSelector.resx" />
+  <event action="Analyze" type="Success" name="SectionItemSelectorTeacher.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\SectionItemSelectorTeacher.resx" />
+  <event action="Analyze" type="Success" name="SectionSelector.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\SectionSelector.resx" />
+  <event action="Analyze" type="Success" name="StudentInfo.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\StudentInfo.resx" />
+  <event action="Analyze" type="Success" name="StudentSearchBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\StudentSearchBox.resx" />
+  <event action="Analyze" type="Success" name="TrainingItemControl.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\FakherControls\TrainingItemControl.resx" />
+  <event action="Analyze" type="Success" name="Form1.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Form1.resx" />
+  <event action="Analyze" type="Success" name="Form2.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Form2.resx" />
+  <event action="Analyze" type="Success" name="Form3.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Form3.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="frmAccessTagPassword.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\Forms\frmAccessTagPassword.resx" />
+  <event action="Analyze" type="Success" name="frmCriteria.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\Forms\frmCriteria.resx" />
+  <event action="Analyze" type="Success" name="frmCriteriaDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\Forms\frmCriteriaDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSelect.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\Forms\frmSelect.resx" />
+  <event action="Analyze" type="Success" name="rComboBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rComboBox\rComboBox.resx" />
+  <event action="Analyze" type="Success" name="rDatePicker.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rDatePicker\rDatePicker.resx" />
+  <event action="Analyze" type="Success" name="rGridComboBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rGridComboBox\rGridComboBox.resx" />
+  <event action="Analyze" type="Success" name="rGridView.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rGridView\rGridView.resx" />
+  <event action="Analyze" type="Success" name="frmExternalCodeDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\frmExternalCodeDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLinkDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\frmLinkDetail.resx" />
+  <event action="Analyze" type="Success" name="frmTableDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\frmTableDetail.resx" />
+  <event action="Analyze" type="Success" name="rHtmlEditor.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\rHtmlEditor.resx" />
+  <event action="Analyze" type="Success" name="rHtmlEditorToolbar.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\rHtmlEditorToolbar.resx" />
+  <event action="Analyze" type="Success" name="rHtmlLabel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rHtmlEditor\rHtmlLabel.resx" />
+  <event action="Analyze" type="Success" name="frmMessageBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rMessageBox\frmMessageBox.resx" />
+  <event action="Analyze" type="Success" name="rRadDetailForm.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rRadDetailForm\rRadDetailForm.resx" />
+  <event action="Analyze" type="Success" name="rRadForm.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rRadForm\rRadForm.resx" />
+  <event action="Analyze" type="Success" name="rScheduler.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rScheduler\rScheduler.resx" />
+  <event action="Analyze" type="Success" name="rTextBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\rComponents\rTextBox\rTextBox.resx" />
+  <event action="Analyze" type="Success" name="frmBankAccountDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BankAccount\frmBankAccountDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBankAccountList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BankAccount\frmBankAccountList.resx" />
+  <event action="Analyze" type="Success" name="frmBankTransactionList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BankAccount\frmBankTransactionList.resx" />
+  <event action="Analyze" type="Success" name="frmChequeBookDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BankAccount\frmChequeBookDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBlackboardLessonList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmBlackboardLessonList.resx" />
+  <event action="Analyze" type="Success" name="frmBlackBoardWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmBlackBoardWizard.resx" />
+  <event action="Analyze" type="Success" name="frmBlackBoardWizard2.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmBlackBoardWizard2.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseDetail1.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseDetail1.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseEssayQuestionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseEssayQuestionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseList.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseList1.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseList1.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseQuestionnaireDesigner.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseQuestionnaireDesigner.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseTestQuestionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmExerciseTestQuestionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonBlkDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmLessonBlkDetail.resx" />
+  <event action="Analyze" type="Success" name="frmQuestionnaireExerciseList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\BlackBoard\frmQuestionnaireExerciseList.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetCount.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetCount.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetProductDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetProductDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetProductList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetProductList.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetSellerList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetSellerList.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetSupplyDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetSupplyDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetSupplyInvoiceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetSupplyInvoiceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetSupplyList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Buffet\frmBuffetSupplyList.resx" />
+  <event action="Analyze" type="Success" name="frmCareerDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Career\frmCareerDetail.resx" />
+  <event action="Analyze" type="Success" name="frmCareerList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Career\frmCareerList.resx" />
+  <event action="Analyze" type="Success" name="frmCertificateDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Certificate\frmCertificateDetail.resx" />
+  <event action="Analyze" type="Success" name="frmCertificateList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Certificate\frmCertificateList.resx" />
+  <event action="Analyze" type="Success" name="frmCapture.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Common\frmCapture.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Consult\frmConsultationDetail.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationSessionList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Consult\frmConsultationSessionList.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationSessionWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Consult\frmConsultationSessionWizard.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Consult\frmConsultationsList.resx" />
+  <event action="Analyze" type="Success" name="frmAbsenceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmAbsenceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmActivityMarkDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmActivityMarkDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBatchSignup.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmBatchSignup.resx" />
+  <event action="Analyze" type="Success" name="frmDelayDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmDelayDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalEventDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmEducationalEventDetail.resx" />
+  <event action="Analyze" type="Success" name="frmFormationDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmFormationDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPresenceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmPresenceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSectionsSchedule.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Educational\frmSectionsSchedule.resx" />
+  <event action="Analyze" type="Success" name="frmDataEntry.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\AnswersheetReader\frmDataEntry.resx" />
+  <event action="Analyze" type="Success" name="frmReader.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\AnswersheetReader\frmReader.resx" />
+  <event action="Analyze" type="Success" name="frmExamRequestDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Exam Request UI\frmExamRequestDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamRequestList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Exam Request UI\frmExamRequestList.resx" />
+  <event action="Analyze" type="Success" name="frmExamDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamEnrollmentsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamEnrollmentsList.resx" />
+  <event action="Analyze" type="Success" name="frmExamFormDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamFormDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamKeyDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamKeyDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamList.resx" />
+  <event action="Analyze" type="Success" name="frmExamParticipateComment.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamParticipateComment.resx" />
+  <event action="Analyze" type="Success" name="frmExamParticipateDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamParticipateDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamParticipatesExport.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamParticipatesExport.resx" />
+  <event action="Analyze" type="Success" name="frmExamSignupWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmExamSignupWizard.resx" />
+  <event action="Analyze" type="Success" name="frmManualAssignAnswersheet.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmManualAssignAnswersheet.resx" />
+  <event action="Analyze" type="Success" name="frmStudentSearch.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\frmStudentSearch.resx" />
+  <event action="Analyze" type="Success" name="frmExamEssayQuestionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmExamEssayQuestionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamPages.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmExamPages.resx" />
+  <event action="Analyze" type="Success" name="frmExamQuestionnaireDesigner.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmExamQuestionnaireDesigner.resx" />
+  <event action="Analyze" type="Success" name="frmExamTestQuestionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmExamTestQuestionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmOnlineExamHoldingDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmOnlineExamHoldingDetail.resx" />
+  <event action="Analyze" type="Success" name="frmOnlineExamWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmOnlineExamWizard.resx" />
+  <event action="Analyze" type="Success" name="frmQuestionnaireExamList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmQuestionnaireExamList.resx" />
+  <event action="Analyze" type="Success" name="frmTextPageItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\Online Exam UI\frmTextPageItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmOralExamHoldingPanel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\OralExamUI\frmOralExamHoldingPanel.resx" />
+  <event action="Analyze" type="Success" name="frmOralExamManagePanel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\OralExamUI\frmOralExamManagePanel.resx" />
+  <event action="Analyze" type="Success" name="frmOralExamWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\OralExamUI\frmOralExamWizard.resx" />
+  <event action="Analyze" type="Success" name="frmOralMarkDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\OralExamUI\frmOralMarkDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEnterExamKeyWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\PaperBasedExamUI\frmEnterExamKeyWizard.resx" />
+  <event action="Analyze" type="Success" name="frmExamBatchSignup.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\PaperBasedExamUI\frmExamBatchSignup.resx" />
+  <event action="Analyze" type="Success" name="frmExamHoldingDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\PaperBasedExamUI\frmExamHoldingDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExamWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\PaperBasedExamUI\frmExamWizard.resx" />
+  <event action="Analyze" type="Success" name="frmPaperBasedExamHoldingWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Exam\PaperBasedExamUI\frmPaperBasedExamHoldingWizard.resx" />
+  <event action="Analyze" type="Success" name="frmAdvanceFinancialDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmAdvanceFinancialDetail.resx" />
+  <event action="Analyze" type="Success" name="frmCashDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmCashDetail.resx" />
+  <event action="Analyze" type="Success" name="frmChequeDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmChequeDetail.resx" />
+  <event action="Analyze" type="Success" name="frmChequeSearch.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmChequeSearch.resx" />
+  <event action="Analyze" type="Success" name="frmDailyNotPayoff.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmDailyNotPayoff.resx" />
+  <event action="Analyze" type="Success" name="frmDiscountDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmDiscountDetail.resx" />
+  <event action="Analyze" type="Success" name="frmElectronicPaymentDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmElectronicPaymentDetail.resx" />
+  <event action="Analyze" type="Success" name="frmElectronicPaymentSearch.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmElectronicPaymentSearch.resx" />
+  <event action="Analyze" type="Success" name="frmEmployeeTotalFinancials.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmEmployeeTotalFinancials.resx" />
+  <event action="Analyze" type="Success" name="frmFinancialCommitmentDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmFinancialCommitmentDetail.resx" />
+  <event action="Analyze" type="Success" name="frmFinancialCommitmentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmFinancialCommitmentList.resx" />
+  <event action="Analyze" type="Success" name="frmFinancialItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmFinancialItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmFuturePaymentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmFuturePaymentList.resx" />
+  <event action="Analyze" type="Success" name="frmIssuedChequeDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmIssuedChequeDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPayoff.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmPayoff.resx" />
+  <event action="Analyze" type="Success" name="frmReceiptDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmReceiptDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReceiptSearch.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmReceiptSearch.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterFinancialCommitmentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmRegisterFinancialCommitmentList.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterFinancialWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmRegisterFinancialWizard.resx" />
+  <event action="Analyze" type="Success" name="frmTodayChequeList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmTodayChequeList.resx" />
+  <event action="Analyze" type="Success" name="frmTransactionList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Financial\frmTransactionList.resx" />
+  <event action="Analyze" type="Success" name="frmBuffetSellerDesktop.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\frmBuffetSellerDesktop.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationDesktop.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\frmConsultationDesktop.resx" />
+  <event action="Analyze" type="Success" name="frmEmployeeDesktop.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\frmEmployeeDesktop.resx" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherDesktop.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\frmTeacherDesktop.resx" />
+  <event action="Analyze" type="Success" name="frmBranchDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmBranchDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBranchList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmBranchList.resx" />
+  <event action="Analyze" type="Success" name="frmDepartmentDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmDepartmentDetail.resx" />
+  <event action="Analyze" type="Success" name="frmDepartmentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmDepartmentList.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalPeriodDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmEducationalPeriodDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmLessonDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonEquivalenceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmLessonEquivalenceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonHoldingDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmLessonHoldingDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonHoldingList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmLessonHoldingList.resx" />
+  <event action="Analyze" type="Success" name="frmLessonList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmLessonList.resx" />
+  <event action="Analyze" type="Success" name="frmMajorDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmMajorDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPeriodsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmPeriodsList.resx" />
+  <event action="Analyze" type="Success" name="frmPlaceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmPlaceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPlaceList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmPlaceList.resx" />
+  <event action="Analyze" type="Success" name="frmPreparePeriod.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\frmPreparePeriod.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalRuleDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEducationalRuleDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalRuleList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEducationalRuleList.resx" />
+  <event action="Analyze" type="Success" name="frmEvalGroupDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEvalGroupDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEvalItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEvalItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEvalProtocolDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEvalProtocolDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEvalProtocolList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmEvalProtocolList.resx" />
+  <event action="Analyze" type="Success" name="frmExamTrainingItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmExamTrainingItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmExerciseTrainingItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmExerciseTrainingItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmLessonTrainingItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmLessonTrainingItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPlacementItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmPlacementItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPlacementProtocolDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmPlacementProtocolDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPlacementProtocolList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmPlacementProtocolList.resx" />
+  <event action="Analyze" type="Success" name="frmPostalTrainingItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmPostalTrainingItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmResultLabelDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmResultLabelDetail.resx" />
+  <event action="Analyze" type="Success" name="frmResultProtocolDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmResultProtocolDetail.resx" />
+  <event action="Analyze" type="Success" name="frmResultProtocolList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmResultProtocolList.resx" />
+  <event action="Analyze" type="Success" name="frmSalaryRateItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmSalaryRateItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSalaryRateProtocolDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmSalaryRateProtocolDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSalaryRateProtocolList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmSalaryRateProtocolList.resx" />
+  <event action="Analyze" type="Success" name="frmSectionTrainingItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmSectionTrainingItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmTrainingPlanDesigner.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmTrainingPlanDesigner.resx" />
+  <event action="Analyze" type="Success" name="frmTrainingPlanList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmTrainingPlanList.resx" />
+  <event action="Analyze" type="Success" name="frmTuitionFeeDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Fundamental\Protocol\frmTuitionFeeDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAlalHesabList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmAlalHesabList.resx" />
+  <event action="Analyze" type="Success" name="frmCalculatePayroll.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmCalculatePayroll.resx" />
+  <event action="Analyze" type="Success" name="frmConditionValueDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmConditionValueDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEmployeeList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmEmployeeList.resx" />
+  <event action="Analyze" type="Success" name="frmEmploymentContractDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmEmploymentContractDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEmploymentContractList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmEmploymentContractList.resx" />
+  <event action="Analyze" type="Success" name="frmPaiedList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPaiedList.resx" />
+  <event action="Analyze" type="Success" name="frmPayrollDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPayrollDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPayrollItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPayrollItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPayrollList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPayrollList.resx" />
+  <event action="Analyze" type="Success" name="frmPayrollPaiedDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPayrollPaiedDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPayrollSettings.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmPayrollSettings.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherHistoryList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmTeacherHistoryList.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherPayrollSettings.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmTeacherPayrollSettings.resx" />
+  <event action="Analyze" type="Success" name="frmTeachingContractDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmTeachingContractDetail.resx" />
+  <event action="Analyze" type="Success" name="frmTeachingContractList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Ministerial\frmTeachingContractList.resx" />
+  <event action="Analyze" type="Success" name="frmOrderList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Order\frmOrderList.resx" />
+  <event action="Analyze" type="Success" name="frmFinancialNoteDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmFinancialNoteDetail.resx" />
+  <event action="Analyze" type="Success" name="frmFinancialNoteList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmFinancialNoteList.resx" />
+  <event action="Analyze" type="Success" name="frmNoteDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmNoteDetail.resx" />
+  <event action="Analyze" type="Success" name="frmNoteList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmNoteList.resx" />
+  <event action="Analyze" type="Success" name="frmPersonDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmPersonDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReservePersonDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Persons\frmReservePersonDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPollDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Poll\frmPollDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPollItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Poll\frmPollItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPollList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Poll\frmPollList.resx" />
+  <event action="Analyze" type="Success" name="frmPreEnrollmentDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\PreEnrollment\frmPreEnrollmentDetail.resx" />
+  <event action="Analyze" type="Success" name="frmPreEnrollmentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\PreEnrollment\frmPreEnrollmentList.resx" />
+  <event action="Analyze" type="Success" name="frmPreEnrollmentListDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\PreEnrollment\frmPreEnrollmentListDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAssignConsultationSession.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmAssignConsultationSession.resx" />
+  <event action="Analyze" type="Success" name="frmBatchSignupWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmBatchSignupWizard.resx" />
+  <event action="Analyze" type="Success" name="frmBayganiDetails.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmBayganiDetails.resx" />
+  <event action="Analyze" type="Success" name="frmConsultationApplicantList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmConsultationApplicantList.resx" />
+  <event action="Analyze" type="Success" name="frmDeliveryWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmDeliveryWizard.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalHistory.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmEducationalHistory.resx" />
+  <event action="Analyze" type="Success" name="frmNextEnrollmentView.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmNextEnrollmentView.resx" />
+  <event action="Analyze" type="Success" name="frmPreEnrollmentWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmPreEnrollmentWizard.resx" />
+  <event action="Analyze" type="Success" name="frmQuitWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmQuitWizard.resx" />
+  <event action="Analyze" type="Success" name="frmReceptionPanel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmReceptionPanel.resx" />
+  <event action="Analyze" type="Success" name="frmReciptFinancialItems.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmReciptFinancialItems.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterFinancialDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmRegisterFinancialDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReserveWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmReserveWizard.resx" />
+  <event action="Analyze" type="Success" name="frmSignupWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmSignupWizard.resx" />
+  <event action="Analyze" type="Success" name="frmStudentConfigurations.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmStudentConfigurations.resx" />
+  <event action="Analyze" type="Success" name="frmTransitionWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmTransitionWizard.resx" />
+  <event action="Analyze" type="Success" name="frmVacationWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reception\frmVacationWizard.resx" />
+  <event action="Analyze" type="Success" name="frmTodayRefunds.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Refund\frmTodayRefunds.resx" />
+  <event action="Analyze" type="Success" name="frmReportParameters.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Report\frmReportParameters.resx" />
+  <event action="Analyze" type="Success" name="frmReportViewer.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Report\frmReportViewer.resx" />
+  <event action="Analyze" type="Success" name="frmWait.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Report\frmWait.resx" />
+  <event action="Analyze" type="Success" name="frmRequestDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Requests\frmRequestDetail.resx" />
+  <event action="Analyze" type="Success" name="frmRequestList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Requests\frmRequestList.resx" />
+  <event action="Analyze" type="Success" name="frmReserveDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reserves\frmReserveDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReserveList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reserves\frmReserveList.resx" />
+  <event action="Analyze" type="Success" name="frmReserveListDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Reserves\frmReserveListDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAttachmentDateChange.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmAttachmentDateChange.resx" />
+  <event action="Analyze" type="Success" name="frmBansList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmBansList.resx" />
+  <event action="Analyze" type="Success" name="frmEnterMark.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmEnterMark.resx" />
+  <event action="Analyze" type="Success" name="frmMakeupDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmMakeupDetail.resx" />
+  <event action="Analyze" type="Success" name="frmObserveDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmObserveDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReplacementDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmReplacementDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSectionAbsences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionAbsences.resx" />
+  <event action="Analyze" type="Success" name="frmSectionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSectionFundamentalDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionFundamentalDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSectionGroups.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionGroups.resx" />
+  <event action="Analyze" type="Success" name="frmSectionItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSectionMakeups.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionMakeups.resx" />
+  <event action="Analyze" type="Success" name="frmSectionObserves.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionObserves.resx" />
+  <event action="Analyze" type="Success" name="frmSectionReplacements.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionReplacements.resx" />
+  <event action="Analyze" type="Success" name="frmSectionsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sections\frmSectionsList.resx" />
+  <event action="Analyze" type="Success" name="frmSmsDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sms\frmSmsDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSmsTemplateSetting.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sms\frmSmsTemplateSetting.resx" />
+  <event action="Analyze" type="Success" name="frmSmsWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sms\frmSmsWizard.resx" />
+  <event action="Analyze" type="Success" name="frmStudentSMSList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Sms\frmStudentSMSList.resx" />
+  <event action="Analyze" type="Success" name="frmBorrow.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmBorrow.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolGroupDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolGroupDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolGroupList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolGroupList.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolList.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolSupplyDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolSupplyDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEducationalToolSupplyList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmEducationalToolSupplyList.resx" />
+  <event action="Analyze" type="Success" name="frmPersonUseList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmPersonUseList.resx" />
+  <event action="Analyze" type="Success" name="frmSell.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmSell.resx" />
+  <event action="Analyze" type="Success" name="frmStorePanel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmStorePanel.resx" />
+  <event action="Analyze" type="Success" name="frmStoreSetting.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmStoreSetting.resx" />
+  <event action="Analyze" type="Success" name="frmStoreSupplyInvoiceDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmStoreSupplyInvoiceDetail.resx" />
+  <event action="Analyze" type="Success" name="frmSupplyEdit.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmSupplyEdit.resx" />
+  <event action="Analyze" type="Success" name="frmUseEdit.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Store\frmUseEdit.resx" />
+  <event action="Analyze" type="Success" name="frmBanDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmBanDetail.resx" />
+  <event action="Analyze" type="Success" name="frmBayganiNosList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmBayganiNosList.resx" />
+  <event action="Analyze" type="Success" name="frmEnterStudentPicture.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmEnterStudentPicture.resx" />
+  <event action="Analyze" type="Success" name="frmExtractStudentPictures.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmExtractStudentPictures.resx" />
+  <event action="Analyze" type="Success" name="frmParticipateAbsences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmParticipateAbsences.resx" />
+  <event action="Analyze" type="Success" name="frmParticipateList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmParticipateList.resx" />
+  <event action="Analyze" type="Success" name="frmPayTransactions.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmPayTransactions.resx" />
+  <event action="Analyze" type="Success" name="frmQuitDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmQuitDetail.resx" />
+  <event action="Analyze" type="Success" name="frmRegister.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegister.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterAbsences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterAbsences.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterActivityMarks.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterActivityMarks.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterAnnouncementWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterAnnouncementWizard.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterDelays.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterDelays.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterEnrollments.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterEnrollments.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterMarks.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterMarks.resx" />
+  <event action="Analyze" type="Success" name="frmRegisterQuits.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmRegisterQuits.resx" />
+  <event action="Analyze" type="Success" name="frmSignup.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmSignup.resx" />
+  <event action="Analyze" type="Success" name="frmStudentFileList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmStudentFileList.resx" />
+  <event action="Analyze" type="Success" name="frmStudentRequests.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmStudentRequests.resx" />
+  <event action="Analyze" type="Success" name="frmTransitionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Students\frmTransitionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEmailDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\Email\frmEmailDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAccessGroupDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmAccessGroupDetail.resx" />
+  <event action="Analyze" type="Success" name="frmAccessGroupList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmAccessGroupList.resx" />
+  <event action="Analyze" type="Success" name="frmAccessTagDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmAccessTagDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEventList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmEventList.resx" />
+  <event action="Analyze" type="Success" name="frmEventPolicyDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmEventPolicyDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEventPolicyList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmEventPolicyList.resx" />
+  <event action="Analyze" type="Success" name="frmPersonPassword.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmPersonPassword.resx" />
+  <event action="Analyze" type="Success" name="frmTest.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmTest.resx" />
+  <event action="Analyze" type="Success" name="frmUpgrade.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\frmUpgrade.resx" />
+  <event action="Analyze" type="Success" name="frmMessageBox.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\Message SubSystem\frmMessageBox.resx" />
+  <event action="Analyze" type="Success" name="frmMessageDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\SystemFeatures\Message SubSystem\frmMessageDetail.resx" />
+  <event action="Analyze" type="Success" name="frmClassList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmClassList.resx" />
+  <event action="Analyze" type="Success" name="frmPresenceList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmPresenceList.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherAbsences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmTeacherAbsences.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmTeacherList.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherPresenceWizard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmTeacherPresenceWizard.resx" />
+  <event action="Analyze" type="Success" name="frmTeacherStudentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Teachers\frmTeacherStudentList.resx" />
+  <event action="Analyze" type="Success" name="WaitingForm.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\WaitingForm.resx" />
+  <event action="Analyze" type="Success" name="frmWebEnrollmentManagement.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\Enrollment\frmWebEnrollmentManagement.resx" />
+  <event action="Analyze" type="Success" name="frmMenuItemDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmMenuItemDetail.resx" />
+  <event action="Analyze" type="Success" name="frmMenuItemList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmMenuItemList.resx" />
+  <event action="Analyze" type="Success" name="frmNewsDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmNewsDetail.resx" />
+  <event action="Analyze" type="Success" name="frmNewsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmNewsList.resx" />
+  <event action="Analyze" type="Success" name="frmWebMediaDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebMediaDetail.resx" />
+  <event action="Analyze" type="Success" name="frmWebpageDesigner.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebpageDesigner.resx" />
+  <event action="Analyze" type="Success" name="frmWebpageList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebpageList.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteConfig.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteConfig.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteSectionDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteSectionDetail.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteSectionList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteSectionList.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteUserList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteUserList.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteWidgetDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteWidgetDetail.resx" />
+  <event action="Analyze" type="Success" name="frmWebsiteWidgetList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\frmWebsiteWidgetList.resx" />
+  <event action="Analyze" type="Success" name="frmEnrollmentLicenseDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\License\frmEnrollmentLicenseDetail.resx" />
+  <event action="Analyze" type="Success" name="frmEnrollmentLicenseList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\License\frmEnrollmentLicenseList.resx" />
+  <event action="Analyze" type="Success" name="frmMarkEntryLicenseDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\License\frmMarkEntryLicenseDetail.resx" />
+  <event action="Analyze" type="Success" name="frmReportCardLicenseDetail.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\License\frmReportCardLicenseDetail.resx" />
+  <event action="Analyze" type="Success" name="frmWebMediaList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\Media\frmWebMediaList.resx" />
+  <event action="Analyze" type="Success" name="frmWebRegisterList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\UI\Website\WebRegister\frmWebRegisterList.resx" />
+  <event action="Analyze" type="Success" name="Fakher" path="E:\fakher\fAKHERsOURSE\Repo\Fakher\Fakher\Fakher.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Fakher.Reports.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\app.config" />
+  <event action="Analyze" type="Success" name="rptBuffetSellerSales.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Buffet Reports\rptBuffetSellerSales.resx" />
+  <event action="Analyze" type="Success" name="rptBuffetStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Buffet Reports\rptBuffetStat.resx" />
+  <event action="Analyze" type="Success" name="rptBuffetSupplyStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Buffet Reports\rptBuffetSupplyStat.resx" />
+  <event action="Analyze" type="Success" name="rptProductStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Buffet Reports\rptProductStat.resx" />
+  <event action="Analyze" type="Success" name="rptProductSupply.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Buffet Reports\rptProductSupply.resx" />
+  <event action="Analyze" type="Success" name="rptCareerApplicants.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Career\rptCareerApplicants.resx" />
+  <event action="Analyze" type="Success" name="rptCertificateList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Certificate Reports\rptCertificateList.resx" />
+  <event action="Analyze" type="Success" name="rptCertificateReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Certificate Reports\rptCertificateReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptConsultation.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Consultation Reports\rptConsultation.resx" />
+  <event action="Analyze" type="Success" name="rptFaConsultationApplicantCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Consultation Reports\rptFaConsultationApplicantCard.resx" />
+  <event action="Analyze" type="Success" name="rptFaConsultationApplicants.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Consultation Reports\rptFaConsultationApplicants.resx" />
+  <event action="Analyze" type="Success" name="rptRegisterAccuracy.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptRegisterAccuracy.resx" />
+  <event action="Analyze" type="Success" name="rptReserveListFullStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptReserveListFullStat.resx" />
+  <event action="Analyze" type="Success" name="rptSectionResults.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptSectionResults.resx" />
+  <event action="Analyze" type="Success" name="rptStudentPeriodResults.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptStudentPeriodResults.resx" />
+  <event action="Analyze" type="Success" name="rptStudentPeriodResults2.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptStudentPeriodResults2.resx" />
+  <event action="Analyze" type="Success" name="rptStudentResultDetails.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptStudentResultDetails.resx" />
+  <event action="Analyze" type="Success" name="rptStudentResults.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Educational Reports\rptStudentResults.resx" />
+  <event action="Analyze" type="Success" name="rptEnAnswersheetHeader.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptEnAnswersheetHeader.resx" />
+  <event action="Analyze" type="Success" name="rptEnExamCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptEnExamCard.resx" />
+  <event action="Analyze" type="Success" name="rptEnExamReportCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptEnExamReportCard.resx" />
+  <event action="Analyze" type="Success" name="rptEnExamResult.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptEnExamResult.resx" />
+  <event action="Analyze" type="Success" name="rptExamAnalysis.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptExamAnalysis.resx" />
+  <event action="Analyze" type="Success" name="rptExamHoldingList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptExamHoldingList.resx" />
+  <event action="Analyze" type="Success" name="rptExamParticipateList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptExamParticipateList.resx" />
+  <event action="Analyze" type="Success" name="rptExamRequestList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptExamRequestList.resx" />
+  <event action="Analyze" type="Success" name="rptFaAnswersheetHeader.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaAnswersheetHeader.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamAbsents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamAbsents.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamCard.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamHoldingSeatLabel.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamHoldingSeatLabel.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamReportCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamReportCard.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamResult.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamResult.resx" />
+  <event action="Analyze" type="Success" name="rptFaExamTopResultList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaExamTopResultList.resx" />
+  <event action="Analyze" type="Success" name="rptFaOralExamResult.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Exam Reports\rptFaOralExamResult.resx" />
+  <event action="Analyze" type="Success" name="rptChequeList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptChequeList.resx" />
+  <event action="Analyze" type="Success" name="rptEPaymentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptEPaymentList.resx" />
+  <event action="Analyze" type="Success" name="rptFaEmployeeFinancialPayOffReport.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFaEmployeeFinancialPayOffReport.resx" />
+  <event action="Analyze" type="Success" name="rptFaEmployeeFinancialReport.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFaEmployeeFinancialReport.resx" />
+  <event action="Analyze" type="Success" name="rptFaEmployeeFinancialReportDates.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFaEmployeeFinancialReportDates.resx" />
+  <event action="Analyze" type="Success" name="rptFaStudentFinancialDetails.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFaStudentFinancialDetails.resx" />
+  <event action="Analyze" type="Success" name="rptFaStudentFinancialReciept.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFaStudentFinancialReciept.resx" />
+  <event action="Analyze" type="Success" name="rptFinancialCommitmentList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFinancialCommitmentList.resx" />
+  <event action="Analyze" type="Success" name="rptFinancialHeadingStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFinancialHeadingStat.resx" />
+  <event action="Analyze" type="Success" name="rptFuturePaymentsList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Financial Reports\rptFuturePaymentsList.resx" />
+  <event action="Analyze" type="Success" name="rptAlalHesab.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Ministerial Reports\rptAlalHesab.resx" />
+  <event action="Analyze" type="Success" name="rptPayrollReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Ministerial Reports\rptPayrollReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptTeacherPayments.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Ministerial Reports\rptTeacherPayments.resx" />
+  <event action="Analyze" type="Success" name="rptTeacherPresences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Ministerial Reports\rptTeacherPresences.resx" />
+  <event action="Analyze" type="Success" name="rptTeachingAbstract.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Ministerial Reports\rptTeachingAbstract.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\packages.config" />
+  <event action="Analyze" type="Success" name="rptPollChart.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Poll Reports\rptPollChart.resx" />
+  <event action="Analyze" type="Success" name="rptPreEnrollmentReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\PreEnrollment\rptPreEnrollmentReceipt.resx" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Report1.resx" />
+  <event action="Analyze" type="Success" name="rptRequest.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Request Reports\rptRequest.resx" />
+  <event action="Analyze" type="Success" name="rptBannedStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptBannedStudents.resx" />
+  <event action="Analyze" type="Success" name="rptDiscountedRegisters.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptDiscountedRegisters.resx" />
+  <event action="Analyze" type="Success" name="rptEnClassActivityList.en.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnClassActivityList.en.resx" />
+  <event action="Analyze" type="Success" name="rptEnClassActivityList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnClassActivityList.resx" />
+  <event action="Analyze" type="Success" name="rptEnClassList.en.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnClassList.en.resx" />
+  <event action="Analyze" type="Success" name="rptEnClassList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnClassList.resx" />
+  <event action="Analyze" type="Success" name="rptEnIdCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnIdCard.resx" />
+  <event action="Analyze" type="Success" name="rptEnReportCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnReportCard.resx" />
+  <event action="Analyze" type="Success" name="rptEnrollments.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEnrollments.resx" />
+  <event action="Analyze" type="Success" name="rptEntryStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptEntryStudents.resx" />
+  <event action="Analyze" type="Success" name="rptFaClassList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptFaClassList.resx" />
+  <event action="Analyze" type="Success" name="rptFaIdCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptFaIdCard.resx" />
+  <event action="Analyze" type="Success" name="rptFaReportCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptFaReportCard.resx" />
+  <event action="Analyze" type="Success" name="rptFormation.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptFormation.resx" />
+  <event action="Analyze" type="Success" name="rptFullQuitedStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptFullQuitedStudents.resx" />
+  <event action="Analyze" type="Success" name="rptInstituteSignup.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptInstituteSignup.resx" />
+  <event action="Analyze" type="Success" name="rptMasterCard.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptMasterCard.resx" />
+  <event action="Analyze" type="Success" name="rptMessage.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptMessage.resx" />
+  <event action="Analyze" type="Success" name="rptNextEnrollmentBannedStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptNextEnrollmentBannedStudents.resx" />
+  <event action="Analyze" type="Success" name="rptQuitedStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptQuitedStudents.resx" />
+  <event action="Analyze" type="Success" name="rptQuitFirstReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptQuitFirstReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptQuitReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptQuitReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptReceiptList.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptReceiptList.resx" />
+  <event action="Analyze" type="Success" name="rptRegisterContacts.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptRegisterContacts.resx" />
+  <event action="Analyze" type="Success" name="rptRegistersSignupInfo.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptRegistersSignupInfo.resx" />
+  <event action="Analyze" type="Success" name="rptRegisterStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptRegisterStat.resx" />
+  <event action="Analyze" type="Success" name="rptReserveListStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptReserveListStat.resx" />
+  <event action="Analyze" type="Success" name="rptReserveReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptReserveReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptSignupReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptSignupReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptSignupStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptSignupStat.resx" />
+  <event action="Analyze" type="Success" name="rptSignupStatBySection.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptSignupStatBySection.resx" />
+  <event action="Analyze" type="Success" name="rptStudentAbsences.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptStudentAbsences.resx" />
+  <event action="Analyze" type="Success" name="rptStudentContacts.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptStudentContacts.resx" />
+  <event action="Analyze" type="Success" name="rptTransitionedStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptTransitionedStudents.resx" />
+  <event action="Analyze" type="Success" name="rptTransitionedStudentsPayOff.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptTransitionedStudentsPayOff.resx" />
+  <event action="Analyze" type="Success" name="rptTransitionFirstReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptTransitionFirstReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptTransitionReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptTransitionReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptVacationReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptVacationReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptVacationRegisters.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\rptVacationRegisters.resx" />
+  <event action="Analyze" type="Success" name="rptBorrowReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptBorrowReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptEducationalToolBorrows.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptEducationalToolBorrows.resx" />
+  <event action="Analyze" type="Success" name="rptEducationalToolSupplyStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptEducationalToolSupplyStat.resx" />
+  <event action="Analyze" type="Success" name="rptEducationalToolUseStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptEducationalToolUseStat.resx" />
+  <event action="Analyze" type="Success" name="rptMajorEducationalTools.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptMajorEducationalTools.resx" />
+  <event action="Analyze" type="Success" name="rptOrderReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptOrderReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptReturnReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptReturnReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptSellReceipt.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptSellReceipt.resx" />
+  <event action="Analyze" type="Success" name="rptStoreBorrows.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptStoreBorrows.resx" />
+  <event action="Analyze" type="Success" name="rptStoreSells.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptStoreSells.resx" />
+  <event action="Analyze" type="Success" name="rptStoreStat.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptStoreStat.resx" />
+  <event action="Analyze" type="Success" name="rptStoreUses.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptStoreUses.resx" />
+  <event action="Analyze" type="Success" name="rptToolSupply.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Store Reports\rptToolSupply.resx" />
+  <event action="Analyze" type="Success" name="rptBarCodeStudent.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptBarCodeStudent.resx" />
+  <event action="Analyze" type="Success" name="rptBayganiCodeStudent.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptBayganiCodeStudent.resx" />
+  <event action="Analyze" type="Success" name="rptCreditorStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptCreditorStudents.resx" />
+  <event action="Analyze" type="Success" name="rptDebtorStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptDebtorStudents.resx" />
+  <event action="Analyze" type="Success" name="rptImageLessStudents.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptImageLessStudents.resx" />
+  <event action="Analyze" type="Success" name="rptIncompleteRegisterContacts.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptIncompleteRegisterContacts.resx" />
+  <event action="Analyze" type="Success" name="rptRegisterInfo.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Student Reports\rptRegisterInfo.resx" />
+  <event action="Analyze" type="Success" name="rptWebsiteCredential.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Website Reports\rptWebsiteCredential.resx" />
+  <event action="Analyze" type="Success" name="Fakher.Reports" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Reports\Fakher.Reports.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\Fakher.Core.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\app.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Fakher.Core" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Core\Fakher.Core.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Resources\Fakher.Resources.csproj" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Resources\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Fakher.Resources" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Resources\Fakher.Resources.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\Fakher.Patch.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\app.config" />
+  <event action="Analyze" type="Success" name="Form1.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\Form1.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="Fakher.Patch" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Patch\Fakher.Patch.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\FakherSmsService.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\app.config" />
+  <event action="Analyze" type="Success" name="ProjectInstaller.resx" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\ProjectInstaller.resx" />
+  <event action="Analyze" type="Success" name="FakherSmsService" path="E:\fakher\fAKHERsOURSE\Repo\FakherSmsService\FakherSmsService.csproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Articles.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Articles.aspx" />
+  <event action="Analyze" type="Success" name="Articles.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Articles.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BookView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BookView.aspx" />
+  <event action="Analyze" type="Success" name="BookView.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BookView.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BranchMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BranchMasterPage.master" />
+  <event action="Analyze" type="Success" name="BranchMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\BranchMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Career.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Career.aspx" />
+  <event action="Analyze" type="Success" name="Career.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Career.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Career\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="ChangePassword.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\ConsultMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\ConsultMasterPage.master" />
+  <event action="Analyze" type="Success" name="ConsultMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\ConsultMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\pageConsultation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\pageConsultation.aspx" />
+  <event action="Analyze" type="Success" name="pageConsultation.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Consult\pageConsultation.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Contact.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\DefaultBranch.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\DefaultBranch.aspx" />
+  <event action="Analyze" type="Success" name="DefaultBranch.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\DefaultBranch.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Grid.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Grid.aspx" />
+  <event action="Analyze" type="Success" name="Grid.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Grid.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\InstructorMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\InstructorMasterPage.master" />
+  <event action="Analyze" type="Success" name="InstructorMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\InstructorMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="pageCompose.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="pageMessage.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageExamRequest.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageExamRequest.aspx" />
+  <event action="Analyze" type="Success" name="pageExamRequest.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageExamRequest.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageMarkEntry.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageMarkEntry.aspx" />
+  <event action="Analyze" type="Success" name="pageMarkEntry.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageMarkEntry.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="pageSignin.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\rptPayroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\rptPayroll.aspx" />
+  <event action="Analyze" type="Success" name="rptPayroll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Instructor\rptPayroll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ListView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ListView.aspx" />
+  <event action="Analyze" type="Success" name="ListView.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\ListView.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage.master" />
+  <event action="Analyze" type="Success" name="MainMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage1.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage1.master" />
+  <event action="Analyze" type="Success" name="MainMasterPage1.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MainMasterPage1.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPage.master" />
+  <event action="Analyze" type="Success" name="MasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPageSingleMenu.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPageSingleMenu.master" />
+  <event action="Analyze" type="Success" name="MasterPageSingleMenu.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MasterPageSingleMenu.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Media.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Media.aspx" />
+  <event action="Analyze" type="Success" name="Media.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Media.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MediaView.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MediaView.aspx" />
+  <event action="Analyze" type="Success" name="MediaView.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\MediaView.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\News.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\News.aspx" />
+  <event action="Analyze" type="Success" name="News.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\News.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="pageMellatHandler.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pagePayRequest.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pagePayRequest.aspx" />
+  <event action="Analyze" type="Success" name="pagePayRequest.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\pagePayRequest.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rMessageBox.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rMessageBox.ascx" />
+  <event action="Analyze" type="Success" name="rMessageBox.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rMessageBox.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rSimpleMessageBox.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rSimpleMessageBox.ascx" />
+  <event action="Analyze" type="Success" name="rSimpleMessageBox.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\rComponents\rMessageBox\rSimpleMessageBox.ascx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Page.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Page.aspx" />
+  <event action="Analyze" type="Success" name="Page.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\Page.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\pageCalendar.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\pageCalendar.aspx" />
+  <event action="Analyze" type="Success" name="pageCalendar.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\pageCalendar.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\SectionMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\SectionMasterPage.master" />
+  <event action="Analyze" type="Success" name="SectionMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Section\SectionMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Signout.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Signout.aspx" />
+  <event action="Analyze" type="Success" name="Signout.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Signout.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\BlackboardMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\BlackboardMasterPage.master" />
+  <event action="Analyze" type="Success" name="BlackboardMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\BlackboardMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageBlackBoardList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageBlackBoardList.aspx" />
+  <event action="Analyze" type="Success" name="pageBlackBoardList.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageBlackBoardList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="pageDefibrillator.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseFinish.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseFinish.aspx" />
+  <event action="Analyze" type="Success" name="pageExerciseFinish.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseFinish.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExercisePage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExercisePage.aspx" />
+  <event action="Analyze" type="Success" name="pageExercisePage.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExercisePage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseStart.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseStart.aspx" />
+  <event action="Analyze" type="Success" name="pageExerciseStart.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageExerciseStart.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageLessonDetails.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageLessonDetails.aspx" />
+  <event action="Analyze" type="Success" name="pageLessonDetails.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\BlackBoard\pageLessonDetails.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\rptApplicantCard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\rptApplicantCard.aspx" />
+  <event action="Analyze" type="Success" name="rptApplicantCard.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\ConsultationSession\rptApplicantCard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Captcha.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="EnrollmentMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="pageCredential.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="pageMellatHandler.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment1.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment2.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment3.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="rptSignupReceipt.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Captcha.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="EnrollmentMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="pageCredential.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="pageMellatHandler.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment1.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment2.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment3.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="rptSignupReceipt.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Enrollment2\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Captcha.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="EnrollmentMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\EnrollmentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="pageCredential.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="pageMellatHandler.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageMellatHandler.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment1.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment2.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnrollment3.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\pageSectionEnrollment3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="rptSignupReceipt.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\EnrollmentSql\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="pageCompose.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageCompose.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="pageMessage.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\MessageBox\pageMessage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="ExamMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="pageDefibrillator.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="pageExamFinish.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="pageExamPage.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OldOnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Captcha.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Captcha.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="ExamMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\ExamMasterPage.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="pageCredential.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="pageDefibrillator.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageDefibrillator.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="pageExamFinish.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamFinish.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamList.aspx" />
+  <event action="Analyze" type="Success" name="pageExamList.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="pageExamPage.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamPage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamStart.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamStart.aspx" />
+  <event action="Analyze" type="Success" name="pageExamStart.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\OnlineExam\pageExamStart.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAbsence.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAbsence.aspx" />
+  <event action="Analyze" type="Success" name="pageAbsence.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAbsence.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAttachements.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAttachements.aspx" />
+  <event action="Analyze" type="Success" name="pageAttachements.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageAttachements.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="pageCredential.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageCredential.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamEnroll.aspx" />
+  <event action="Analyze" type="Success" name="pageExamEnroll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamParticipate.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamParticipate.aspx" />
+  <event action="Analyze" type="Success" name="pageExamParticipate.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageExamParticipate.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageInterviewEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageInterviewEnroll.aspx" />
+  <event action="Analyze" type="Success" name="pageInterviewEnroll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageInterviewEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageParticipate.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageParticipate.aspx" />
+  <event action="Analyze" type="Success" name="pageParticipate.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageParticipate.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\PagePoll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\PagePoll.aspx" />
+  <event action="Analyze" type="Success" name="PagePoll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\PagePoll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pagePreEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pagePreEnroll.aspx" />
+  <event action="Analyze" type="Success" name="pagePreEnroll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pagePreEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageRequest.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageRequest.aspx" />
+  <event action="Analyze" type="Success" name="pageRequest.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageRequest.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSectionEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSectionEnroll.aspx" />
+  <event action="Analyze" type="Success" name="pageSectionEnroll.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSectionEnroll.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="pageSignin.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignin.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup.aspx" />
+  <event action="Analyze" type="Success" name="pageSignup.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup2.aspx" />
+  <event action="Analyze" type="Success" name="pageSignup2.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\pageSignup2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\RegisterNote.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\RegisterNote.aspx" />
+  <event action="Analyze" type="Success" name="RegisterNote.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\RegisterNote.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptExamCard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptExamCard.aspx" />
+  <event action="Analyze" type="Success" name="rptExamCard.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptExamCard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptIdCard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptIdCard.aspx" />
+  <event action="Analyze" type="Success" name="rptIdCard.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptIdCard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="rptSignupReceipt.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\rptSignupReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Buy.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Buy.aspx" />
+  <event action="Analyze" type="Success" name="Buy.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Buy.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\rptOrderReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\rptOrderReceipt.aspx" />
+  <event action="Analyze" type="Success" name="rptOrderReceipt.aspx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\Shop\rptOrderReceipt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\StudentMasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\StudentMasterPage.master" />
+  <event action="Analyze" type="Success" name="StudentMasterPage.master" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\Student\StudentMasterPage.master" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\AttachmentView.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\AttachmentView.ascx" />
+  <event action="Analyze" type="Success" name="AttachmentView.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\AttachmentView.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\BookControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\BookControl.ascx" />
+  <event action="Analyze" type="Success" name="BookControl.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\BookControl.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPage.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPage.ascx" />
+  <event action="Analyze" type="Success" name="ExamPage.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPage.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPageItem.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPageItem.ascx" />
+  <event action="Analyze" type="Success" name="ExamPageItem.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ExamPageItem.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\MajorSections.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\MajorSections.ascx" />
+  <event action="Analyze" type="Success" name="MajorSections.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\MajorSections.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\NewsControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\NewsControl.ascx" />
+  <event action="Analyze" type="Success" name="NewsControl.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\NewsControl.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\PollControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\PollControl.ascx" />
+  <event action="Analyze" type="Success" name="PollControl.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\PollControl.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ReportViewer.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ReportViewer.ascx" />
+  <event action="Analyze" type="Success" name="ReportViewer.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\ReportViewer.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\StudentTopPanel.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\StudentTopPanel.ascx" />
+  <event action="Analyze" type="Success" name="StudentTopPanel.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\StudentTopPanel.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\UserBar.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\UserBar.ascx" />
+  <event action="Analyze" type="Success" name="UserBar.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\UserBar.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\WebPageView.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\WebPageView.ascx" />
+  <event action="Analyze" type="Success" name="WebPageView.ascx" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\UserControls\WebPageView.ascx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1\web.config" />
+  <event action="Analyze" type="Success" name="E:\...\Fakher.Web1\" path="E:\fakher\fAKHERsOURSE\Repo\Fakher.Web1" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\fakher\fAKHERsOURSE\Repo\WaitWnd\WaitWnd.csproj" />
+  <event action="Analyze" type="Success" name="Resource1.resx" path="E:\fakher\fAKHERsOURSE\Repo\WaitWnd\Resource1.resx" />
+  <event action="Analyze" type="Success" name="WaitForm.resx" path="E:\fakher\fAKHERsOURSE\Repo\WaitWnd\WaitForm.resx" />
+  <event action="Analyze" type="Success" name="WaitWnd" path="E:\fakher\fAKHERsOURSE\Repo\WaitWnd\WaitWnd.csproj" />
+  <event action="Analyze" type="Success" name="FakherSolution" path="E:\fakher\fAKHERsOURSE\Repo\FakherSolution.sln" />
+</log>

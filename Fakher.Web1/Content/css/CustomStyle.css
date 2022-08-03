@@ -1,0 +1,308 @@
+﻿
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan/Yekan.eot');
+    src: url('../fonts/Yekan/Yekan.eot#iefix') format('embedded-opentype'), url('../fonts/Yekan/Yekan.woff') format('woff'), url('../fonts/Yekan/Yekan.ttf') format('truetype'), url('../fonts/Yekan/Yekan.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iranSans';
+    src: url('../fonts/IranSans/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/IranSans/eot/IRANSansWeb(FaNum).eot#iefix') format('embedded-opentype'), url('../fonts/IranSans/woff/IRANSansWeb(FaNum).woff') format('woff'), url('../fonts/IranSans/ttf/IRANSansWeb(FaNum).ttf') format('truetype'), url('../fonts//IranSans/svg/IRANSansWeb(FaNum).svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.RadMenu
+{
+    z-index:1000!important;
+}
+.RadMenu_Bootstrap .rmRootGroup .rmRootLink {
+    font-family: iranSans !important;
+}
+body {
+    color: #333333;
+    font-size: 14px !important;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    font-family: iranSans !important;
+    font-weight: normal;
+    overflow-x: hidden;
+    text-align: justify;
+}
+.RadPanelBar_Bootstrap .rpRootLink .rpText
+{
+    font-size:14px!important;
+}
+#top {
+    background: #009999;
+    background: #19798c;
+    color: #000000;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper {
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.55);
+}
+#banner {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#banner img
+{
+    width:100%;
+    height:200px;
+}
+#tickerImage {
+    background-image: url(images/bullet_left.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50px;
+}
+.top-menu.navbar-nav > li > a {
+    padding-top: 5px!important;
+    padding-bottom:5px!important;
+    line-height:15px!important;
+    font-size:9pt!important;
+    border-right:1px solid;
+}
+    .top-menu.navbar-nav > li:first-child > a
+    {
+        border-right:none!important;
+    }
+    .ticker-wrapper {
+        display: flex;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+.ticker-wrapper i
+{
+    margin-left:8px;
+}
+ul>li
+{
+    float:right!important;
+}
+    ul > li > a > span {
+        font-family: iranSans !important;
+    }
+.list-item
+{
+    
+    border-bottom:1px dashed;
+    padding:8px 10px;
+   
+
+}
+    .list-item.side
+    {
+        border-bottom:2px solid #1a73ac;
+        background-color:rgba(239, 238, 238, 0.80)
+    }
+    .list-item .date {
+        font-size: 11px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #808080;
+    }
+    .list-item i
+    {
+        font-size:11px;
+        color:#808080;
+    }
+    .list-item:hover {
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+    a
+    {
+        text-align:right!important;
+    }
+a:hover
+{
+    text-decoration:none;
+}
+.list-item h2
+{
+    font-size:15px;
+    color:#a00707!important;
+    margin-bottom:5px;
+    margin-top:5px!important;
+    width:100%;
+}
+    .list-item h2 a {
+        color: #a00707 !important;
+    }
+    .panel-heading
+    {
+        font-weight:bolder;
+    }
+.panel-heading .small
+{
+    font-weight:normal;
+}
+#bottom {
+    color: white;
+    background-color: #184860;
+    min-height: 100px;
+    border-top: 4px solid #5C7E7E;
+}
+.navbar
+{
+    margin-bottom:0!important;
+    min-height:unset!important;
+    border-radius:unset!important;
+}
+.navbar-collapse.collapse {
+    /*height: 40px !important;*/
+}
+#topMenu .navbar-default {
+    clear: both;
+    background: linear-gradient( #3b85ce,#77ade1);
+    z-index: 2;
+    height: 40px !important;
+    border-top: 1px solid #19798c;
+    border-bottom: 1px solid #19798c;
+}
+#topMenu .navbar-nav > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:#fff;
+}
+#ctl00_Menu1, #ctl00_Menu1  ul{
+    float: right !important;
+}
+.dropdown-menu li
+{
+    width:100%!important;
+}
+.dropdown-menu > li > a
+{
+    font-size:12px!important;
+}
+.dropdown-menu
+{
+    min-width:200px!important;
+}
+.heading {
+    background: url(/images/heading.gif) no-repeat right;
+    padding-right: 5px;
+    padding-top: 2px;
+    color: #000000;
+    margin-bottom:20px;
+    font-size:18px!important;
+}
+
+.heading2 {
+    background-color: #E5EEF3;
+    padding-right: 5px;
+    padding-top: 2px;
+    color: #022E75;
+    font-weight: bold;
+    height: 30px;
+}
+
+.UseHand {
+    cursor: pointer !important;
+}
+
+.CustomStyle {
+    cursor: pointer !important;
+    background-color: #d4ffbc !important;
+    border: 1px solid #85c843 !important;
+   
+}
+
+    .CustomStyle:hover {
+        /* #d4ffbc #85c843 */
+        cursor: pointer !important;
+        background-color: #009999 !important;
+        color: #FFFFFF !important;
+        border: 1px solid #009999 !important;
+    }
+.RadPanelBar .rpItem
+{
+    width:100%;
+}
+.RadGrid .rgHeader, .RadGrid th.rgResizeCol {
+    text-align: right!important;
+}
+.RadGrid_Web20, .RadGrid_Web20 .rgMasterTable, .RadGrid_Web20 .rgDetailTable, .RadGrid_Web20 .rgGroupPanel table, .RadGrid_Web20 .rgCommandRow table, .RadGr
+{
+    font:unset!important;
+}
+ul {
+    list-style-type: disc;
+}
+#content ul li
+{
+    width:100%;
+}
+.RadWindow_Bootstrap, .RadButton_Bootstrap {
+    font-family: unset !important;
+}
+    .RadWindow_Bootstrap .rwTitleWrapper
+    {
+        line-height:30px;
+    }
+.RadWindow .rwTitleWrapper
+{
+    height:unset!important;
+}
+.RadWindow
+{
+    left:unset!important;
+    right:35%!important;
+    height:unset!important;
+}
+.rwContent {
+    height: unset !important;
+}
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+        border-bottom:1px solid #1a8527;
+        color:#000000;
+        background-color:#d4ffbc;
+    }
+        .sidebar-nav .navbar li.active
+        {
+            color:#eee!important;
+        }
+        .sidebar-nav .navbar li a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #000000;
+            font-size: 13px;
+        }
+}
+.margin-10{
+    margin:10px;
+}
+.badge-danger
+{
+    background-color:red;
+    padding:5px;
+    border-radius:5px;
+}

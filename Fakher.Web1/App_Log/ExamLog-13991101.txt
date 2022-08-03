@@ -1,0 +1,9 @@
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|12:13:13 ق.ظ|اشکان درختکار (173805)|Initialized Page #1)|wj05y3ki2nrd3wprte5r2hs1|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|10:50:20 ق.ظ|اشکان درختکار (173805)|Initialized Page #1)|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:52:11 ق.ظ|اشکان درختکار (173672)|Started Exam|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:52:11 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:52:24 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:52:24 ق.ظ|اشکان درختکار (173672)|Saved Page #1((1,2)(2,3)(3,0)) Raw(23)|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:52:24 ق.ظ|اشکان درختکار (173672)|go to finish page|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:52:27 ق.ظ|اشکان درختکار (173672)|Confirmed Exam|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx|10:52:27 ق.ظ|No ExamParticipate|Redirect(confirmed)|pp4mev5n1r3erehg3y3zn3g4|127.0.0.1

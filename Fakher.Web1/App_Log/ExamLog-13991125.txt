@@ -1,0 +1,26 @@
+http://localhost:54411/Student/OnlineExam/default.aspx|12:44:20 ب.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0]|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|12:44:24 ب.ظ|مریم ادیب آرا (173583)|Defibrillate Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|12:44:27 ب.ظ|مریم ادیب آرا (173583)|Started Exam|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:44:27 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:48:22 ب.ظ|No ExamParticipate|Redirect(OEP is null)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/Default.aspx|12:48:35 ب.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0]|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|12:48:50 ب.ظ|مریم ادیب آرا (173583)|Defibrillate Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|12:48:59 ب.ظ|مریم ادیب آرا (173583)|Started Exam|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:49:05 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/default.aspx|12:51:40 ب.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0]|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|12:51:56 ب.ظ|مریم ادیب آرا (173583)|Defibrillate Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|12:52:11 ب.ظ|مریم ادیب آرا (173583)|Started Exam|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:52:17 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:53:56 ب.ظ|No ExamParticipate|Redirect(OEP is null)|uf3vshf3j1cqk1fonuqiowea|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|12:54:25 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|01:11:58 ب.ظ|No ExamParticipate|Redirect(OEP is null)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/default.aspx|01:12:39 ب.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0]|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|01:12:42 ب.ظ|مریم ادیب آرا (173583)|Defibrillate Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|01:12:44 ب.ظ|مریم ادیب آرا (173583)|Started Exam|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|01:12:44 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|01:13:48 ب.ظ|No ExamParticipate|Redirect(OEP is null)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/default.aspx|01:14:07 ب.ظ|No ExamParticipate|ورود به سیستم آموزش [127.0.0.1] [Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0]|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageDefibrillator.aspx|01:14:10 ب.ظ|مریم ادیب آرا (173583)|Defibrillate Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamStart.aspx|01:14:12 ب.ظ|مریم ادیب آرا (173583)|Started Exam|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|01:14:12 ب.ظ|مریم ادیب آرا (173583)|Initialized Page #1 Raw(23213)|b51l3avtxtdnahneueso0dml|127.0.0.1
+http://localhost:54411/Student/OnlineExam/pageExamPage.aspx?pageNum=1|02:06:41 ب.ظ|No ExamParticipate|Redirect(OEP is null)|b51l3avtxtdnahneueso0dml|127.0.0.1

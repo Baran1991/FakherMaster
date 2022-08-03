@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true"
+    CodeFile="ConsultMasterPage.master.cs" Inherits="Consult_ConsultMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RightContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="TopRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Width="210px">
+        <Items>
+            <telerik:RadPanelItem runat="server" Text="مــوضــوعــات" Font-Names="Tahoma" Expanded="true"
+                PreventCollapse="True">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="سئوالـات قضـایـی و حقـوقـی" Font-Names="Tahoma"
+                        NavigateUrl="~/Consult/Default.aspx?Category=0">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="سئوالـات درســـی" Font-Names="Tahoma"
+                        NavigateUrl="~/Consult/Default.aspx?Category=1">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+        </Items>
+    </telerik:RadPanelBar>
+    <asp:ContentPlaceHolder ID="BottomRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CenterContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,44 @@
+
+/* CSS Document */
+
+
+.widgetheader
+{
+	background-image:url(images/h2-bg.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	margin: 0;
+	height: 30px;
+	width:215px;
+	display:block;
+	margin-top:11px;
+}
+
+.widgetheader h2 {
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 10px;
+}
+
+.widgetbody {
+	padding:15px 0px 5px 0px;
+	border-right: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+
+
+.widgetbodyhome {
+	padding:15px 0px 5px 0px;
+	border-right: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	background:#eef3f7;
+}
+
+.widgetfooter {
+	height:23px;
+	width:215px;
+	padding-top:6px;
+	background:url(images/eventwidgetfooter.gif) no-repeat;
+	margin-bottom:5px;
+	border-top:	 1px solid #e8e8e8;
+}

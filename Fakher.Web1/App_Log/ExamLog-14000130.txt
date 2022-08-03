@@ -1,0 +1,1 @@
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|08:53:55 ق.ظ|No ExamParticipate|Redirect(OEP is null)|qgnrb5xpbhkb1bd5mp3ebgt5|127.0.0.1

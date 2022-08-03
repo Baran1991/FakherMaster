@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true"
+    CodeFile="SectionMasterPage.master.cs" Inherits="SectionMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RightContentPlaceHolder" runat="Server">
+        <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Width="210px">
+        </telerik:RadPanelBar>
+    <%--<asp:Menu ID="MenuBar1" runat="server" RenderingMode="List"></asp:Menu>--%>
+    <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CenterContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,3 @@
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|11:50:01 ب.ظ|اشکان درختکار (173805)|Initialized Page #1)|wj05y3ki2nrd3wprte5r2hs1|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|11:51:18 ب.ظ|اشکان درختکار (173805)|Initialized Page #1)|wj05y3ki2nrd3wprte5r2hs1|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageLessonDetails.aspx|11:52:07 ب.ظ|اشکان درختکار (173805)|Initialized Page #1)|wj05y3ki2nrd3wprte5r2hs1|127.0.0.1

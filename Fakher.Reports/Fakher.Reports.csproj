@@ -1,0 +1,1285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6AED6EA-D7E7-41C3-8372-7FA104A75BB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fakher.Reports</RootNamespace>
+    <AssemblyName>Fakher.Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NHibernate, Version=5.3.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.5.3.11\lib\net461\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=8.0.14.225, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TelerikDLL\naseri_bin\Bin\Telerik.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Reporting.Data.Schema">
+      <HintPath>..\..\TelerikDLL\naseri_bin\Bin\Telerik.Reporting.Data.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.Html5.WebForms">
+      <HintPath>..\..\Fakher-master_Backup\lib\Telerik.ReportViewer.Html5.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=8.0.14.225, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Fakher-master_Backup\lib\Telerik.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikData">
+      <HintPath>..\..\Fakher Update\Solution\Fakher.Reports\bin\Debug\TelerikData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buffet Reports\rptBuffetSellerSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buffet Reports\rptBuffetSellerSales.Designer.cs">
+      <DependentUpon>rptBuffetSellerSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buffet Reports\rptBuffetStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buffet Reports\rptBuffetStat.Designer.cs">
+      <DependentUpon>rptBuffetStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buffet Reports\rptBuffetSupplyStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buffet Reports\rptBuffetSupplyStat.Designer.cs">
+      <DependentUpon>rptBuffetSupplyStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buffet Reports\rptProductStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buffet Reports\rptProductStat.Designer.cs">
+      <DependentUpon>rptProductStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buffet Reports\rptProductSupply.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buffet Reports\rptProductSupply.Designer.cs">
+      <DependentUpon>rptProductSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Career\rptCareerApplicants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Career\rptCareerApplicants.Designer.cs">
+      <DependentUpon>rptCareerApplicants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate Reports\rptCertificateReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Certificate Reports\rptCertificateReceipt.Designer.cs">
+      <DependentUpon>rptCertificateReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate Reports\rptCertificateList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Certificate Reports\rptCertificateList.Designer.cs">
+      <DependentUpon>rptCertificateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultation Reports\rptConsultation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultation Reports\rptConsultation.Designer.cs">
+      <DependentUpon>rptConsultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultation Reports\rptFaConsultationApplicantCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultation Reports\rptFaConsultationApplicantCard.Designer.cs">
+      <DependentUpon>rptFaConsultationApplicantCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultation Reports\rptFaConsultationApplicants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultation Reports\rptFaConsultationApplicants.Designer.cs">
+      <DependentUpon>rptFaConsultationApplicants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExerciseResult.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExerciseResult.Designer.cs">
+      <DependentUpon>rptEnExerciseResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExerciseResult.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExerciseResult.Designer.cs">
+      <DependentUpon>rptFaExerciseResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptAllReceiptList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptAllReceiptList.Designer.cs">
+      <DependentUpon>rptAllReceiptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptAllChequeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptAllChequeList.Designer.cs">
+      <DependentUpon>rptAllChequeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptChequeListReturningDates.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptChequeListReturningDates.Designer.cs">
+      <DependentUpon>rptChequeListReturningDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptChequeListSendingDates.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptChequeListSendingDates.Designer.cs">
+      <DependentUpon>rptChequeListSendingDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptReceiptListSendingDates .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptReceiptListSendingDates .Designer.cs">
+      <DependentUpon>rptReceiptListSendingDates .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaStudentFinancialDetails.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaStudentFinancialDetails.Designer.cs">
+      <DependentUpon>rptFaStudentFinancialDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaStudentFinancialReciept.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaStudentFinancialReciept.Designer.cs">
+      <DependentUpon>rptFaStudentFinancialReciept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialPayOffReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialPayOffReport.Designer.cs">
+      <DependentUpon>rptFaEmployeeFinancialPayOffReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialReportDates.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialReportDates.Designer.cs">
+      <DependentUpon>rptFaEmployeeFinancialReportDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFinancialCommitmentList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFinancialCommitmentList.Designer.cs">
+      <DependentUpon>rptFinancialCommitmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFinancialHeadingStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFinancialHeadingStat.Designer.cs">
+      <DependentUpon>rptFinancialHeadingStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFuturePaymentsList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFuturePaymentsList.Designer.cs">
+      <DependentUpon>rptFuturePaymentsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptAlalHesab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptAlalHesab.Designer.cs">
+      <DependentUpon>rptAlalHesab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnIdCardStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnIdCardStaff.Designer.cs">
+      <DependentUpon>rptEnIdCardStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFaIdCardStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFaIdCardStaff.Designer.cs">
+      <DependentUpon>rptFaIdCardStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptLevelDeterminationReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptLevelDeterminationReceipt.Designer.cs">
+      <DependentUpon>rptLevelDeterminationReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptSignupReceiptTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSignupReceiptTotal.Designer.cs">
+      <DependentUpon>rptSignupReceiptTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTransitionedStudentsPayOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransitionedStudentsPayOff.Designer.cs">
+      <DependentUpon>rptTransitionedStudentsPayOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTransitionReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransitionReceipt.Designer.cs">
+      <DependentUpon>rptTransitionReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTransitionedStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransitionedStudents.Designer.cs">
+      <DependentUpon>rptTransitionedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptTransitionFirstReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransitionFirstReceipt.Designer.cs">
+      <DependentUpon>rptTransitionFirstReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptQuitFirstReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptQuitFirstReceipt.Designer.cs">
+      <DependentUpon>rptQuitFirstReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptQuitReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptQuitReceipt.Designer.cs">
+      <DependentUpon>rptQuitReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamAbsents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamAbsents.Designer.cs">
+      <DependentUpon>rptFaExamAbsents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreEnrollment\rptPreEnrollmentReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PreEnrollment\rptPreEnrollmentReceipt.Designer.cs">
+      <DependentUpon>rptPreEnrollmentReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report1.Designer.cs">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentPeriodResults2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentPeriodResults2.Designer.cs">
+      <DependentUpon>rptStudentPeriodResults2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentPeriodResults.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentPeriodResults.Designer.cs">
+      <DependentUpon>rptStudentPeriodResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptRegisterAccuracy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptRegisterAccuracy.Designer.cs">
+      <DependentUpon>rptRegisterAccuracy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptReserveListFullStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptReserveListFullStat.Designer.cs">
+      <DependentUpon>rptReserveListFullStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamHoldingSeatLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamHoldingSeatLabel.Designer.cs">
+      <DependentUpon>rptFaExamHoldingSeatLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaOralExamResult.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaOralExamResult.Designer.cs">
+      <DependentUpon>rptFaOralExamResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamTopResultList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamTopResultList.Designer.cs">
+      <DependentUpon>rptFaExamTopResultList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptFaEmployeeFinancialReport.Designer.cs">
+      <DependentUpon>rptFaEmployeeFinancialReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeacherPayments.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeacherPayments.Designer.cs">
+      <DependentUpon>rptTeacherPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeacherPresences.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeacherPresences.Designer.cs">
+      <DependentUpon>rptTeacherPresences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptPayrollReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptPayrollReceipt.Designer.cs">
+      <DependentUpon>rptPayrollReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeachingAbstract.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ministerial Reports\rptTeachingAbstract.Designer.cs">
+      <DependentUpon>rptTeachingAbstract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Poll Reports\rptPollChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Poll Reports\rptPollChart.Designer.cs">
+      <DependentUpon>rptPollChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Request Reports\rptRequest.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Request Reports\rptRequest.Designer.cs">
+      <DependentUpon>rptRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptBannedStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptBannedStudents.Designer.cs">
+      <DependentUpon>rptBannedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnrollments.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnrollments.Designer.cs">
+      <DependentUpon>rptEnrollments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentResultDetails.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentResultDetails.Designer.cs">
+      <DependentUpon>rptStudentResultDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptSectionResults.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptSectionResults.Designer.cs">
+      <DependentUpon>rptSectionResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamHoldingList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamHoldingList.Designer.cs">
+      <DependentUpon>rptExamHoldingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamAnalysis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamAnalysis.Designer.cs">
+      <DependentUpon>rptExamAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamParticipateList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamParticipateList.Designer.cs">
+      <DependentUpon>rptExamParticipateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFormation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFormation.Designer.cs">
+      <DependentUpon>rptFormation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptNextEnrollmentBannedStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptNextEnrollmentBannedStudents.Designer.cs">
+      <DependentUpon>rptNextEnrollmentBannedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptReserveListStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReserveListStat.Designer.cs">
+      <DependentUpon>rptReserveListStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptMajorEducationalTools.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptMajorEducationalTools.Designer.cs">
+      <DependentUpon>rptMajorEducationalTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolBorrows.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolBorrows.Designer.cs">
+      <DependentUpon>rptEducationalToolBorrows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptSellReceipts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptSellReceipts.Designer.cs">
+      <DependentUpon>rptSellReceipts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreBorrows.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreBorrows.Designer.cs">
+      <DependentUpon>rptStoreBorrows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptReturnReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptReturnReceipt.Designer.cs">
+      <DependentUpon>rptReturnReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolSupplyStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolSupplyStat.Designer.cs">
+      <DependentUpon>rptEducationalToolSupplyStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolUseStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptEducationalToolUseStat.Designer.cs">
+      <DependentUpon>rptEducationalToolUseStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptOrderReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptOrderReceipt.Designer.cs">
+      <DependentUpon>rptOrderReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptBarCodeStudent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptBarCodeStudent.Designer.cs">
+      <DependentUpon>rptBarCodeStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptBayganiCodeStudent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptBayganiCodeStudent.Designer.cs">
+      <DependentUpon>rptBayganiCodeStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptNCImageLessStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptNCImageLessStudents.Designer.cs">
+      <DependentUpon>rptNCImageLessStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptIDImageLessStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptIDImageLessStudents.Designer.cs">
+      <DependentUpon>rptIDImageLessStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptRegisterInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptRegisterInfo.Designer.cs">
+      <DependentUpon>rptRegisterInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptCreditorStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptCreditorStudents.Designer.cs">
+      <DependentUpon>rptCreditorStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptIncompleteRegisterContacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptIncompleteRegisterContacts.Designer.cs">
+      <DependentUpon>rptIncompleteRegisterContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamCard.Designer.cs">
+      <DependentUpon>rptEnExamCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreUses.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreUses.Designer.cs">
+      <DependentUpon>rptStoreUses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptRegistersSignupInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptRegistersSignupInfo.Designer.cs">
+      <DependentUpon>rptRegistersSignupInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptDiscountedRegisters.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDiscountedRegisters.Designer.cs">
+      <DependentUpon>rptDiscountedRegisters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financial Reports\rptEPaymentList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptEPaymentList.Designer.cs">
+      <DependentUpon>rptEPaymentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptReceiptList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReceiptList.Designer.cs">
+      <DependentUpon>rptReceiptList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptSignupStatBySection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSignupStatBySection.Designer.cs">
+      <DependentUpon>rptSignupStatBySection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptMasterCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMasterCard.Designer.cs">
+      <DependentUpon>rptMasterCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreStat.Designer.cs">
+      <DependentUpon>rptStoreStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamReportCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamReportCard.Designer.cs">
+      <DependentUpon>rptFaExamReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamReportCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamReportCard.Designer.cs">
+      <DependentUpon>rptEnExamReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamResult.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnExamResult.Designer.cs">
+      <DependentUpon>rptEnExamResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamRequestList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptExamRequestList.Designer.cs">
+      <DependentUpon>rptExamRequestList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamResult.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamResult.Designer.cs">
+      <DependentUpon>rptFaExamResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptInstituteSignup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInstituteSignup.Designer.cs">
+      <DependentUpon>rptInstituteSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptMessage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMessage.Designer.cs">
+      <DependentUpon>rptMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptRegisterStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptRegisterStat.Designer.cs">
+      <DependentUpon>rptRegisterStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptRegisterContacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptRegisterContacts.Designer.cs">
+      <DependentUpon>rptRegisterContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnClassActivityList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnClassActivityList.Designer.cs">
+      <DependentUpon>rptEnClassActivityList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentResults.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Educational Reports\rptStudentResults.Designer.cs">
+      <DependentUpon>rptStudentResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptVacationReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVacationReceipt.Designer.cs">
+      <DependentUpon>rptVacationReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptReserveReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReserveReceipt.Designer.cs">
+      <DependentUpon>rptReserveReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFaReportCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFaReportCard.Designer.cs">
+      <DependentUpon>rptFaReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnReportCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnReportCard.Designer.cs">
+      <DependentUpon>rptEnReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaExamCard.Designer.cs">
+      <DependentUpon>rptFaExamCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnAnswersheetHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptEnAnswersheetHeader.Designer.cs">
+      <DependentUpon>rptEnAnswersheetHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaAnswersheetHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exam Reports\rptFaAnswersheetHeader.Designer.cs">
+      <DependentUpon>rptFaAnswersheetHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFullQuitedStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFullQuitedStudents.Designer.cs">
+      <DependentUpon>rptFullQuitedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptQuitedStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptQuitedStudents.Designer.cs">
+      <DependentUpon>rptQuitedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEntryStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEntryStudents.Designer.cs">
+      <DependentUpon>rptEntryStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnIdCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnIdCard.Designer.cs">
+      <DependentUpon>rptEnIdCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptStudentAbsences.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStudentAbsences.Designer.cs">
+      <DependentUpon>rptStudentAbsences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptSellReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptSellReceipt.Designer.cs">
+      <DependentUpon>rptSellReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptBorrowReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptBorrowReceipt.Designer.cs">
+      <DependentUpon>rptBorrowReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptDebtorStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptDebtorStudents.Designer.cs">
+      <DependentUpon>rptDebtorStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptEnClassList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEnClassList.Designer.cs">
+      <DependentUpon>rptEnClassList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Financial Reports\rptChequeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Financial Reports\rptChequeList.Designer.cs">
+      <DependentUpon>rptChequeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFaClassList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFaClassList.Designer.cs">
+      <DependentUpon>rptFaClassList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptSignupStat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSignupStat.Designer.cs">
+      <DependentUpon>rptSignupStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptFaIdCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFaIdCard.Designer.cs">
+      <DependentUpon>rptFaIdCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptSignupReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSignupReceipt.Designer.cs">
+      <DependentUpon>rptSignupReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreSells.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptStoreSells.Designer.cs">
+      <DependentUpon>rptStoreSells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptStudentContacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStudentContacts.Designer.cs">
+      <DependentUpon>rptStudentContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Store Reports\rptToolSupply.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Store Reports\rptToolSupply.Designer.cs">
+      <DependentUpon>rptToolSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptVacationRegisters.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVacationRegisters.Designer.cs">
+      <DependentUpon>rptVacationRegisters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Reports\rptImageLessStudents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student Reports\rptImageLessStudents.Designer.cs">
+      <DependentUpon>rptImageLessStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Website Reports\rptWebsiteCredential.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Website Reports\rptWebsiteCredential.Designer.cs">
+      <DependentUpon>rptWebsiteCredential.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fakher.Core\Fakher.Core.csproj">
+      <Project>{A4090CAC-FE3F-4AA3-B006-076E8C916C0C}</Project>
+      <Name>Fakher.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buffet Reports\rptBuffetSellerSales.resx">
+      <DependentUpon>rptBuffetSellerSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buffet Reports\rptBuffetStat.resx">
+      <DependentUpon>rptBuffetStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buffet Reports\rptBuffetSupplyStat.resx">
+      <DependentUpon>rptBuffetSupplyStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buffet Reports\rptProductStat.resx">
+      <DependentUpon>rptProductStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buffet Reports\rptProductSupply.resx">
+      <DependentUpon>rptProductSupply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Career\rptCareerApplicants.resx">
+      <DependentUpon>rptCareerApplicants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate Reports\rptCertificateReceipt.resx">
+      <DependentUpon>rptCertificateReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate Reports\rptCertificateList.resx">
+      <DependentUpon>rptCertificateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultation Reports\rptConsultation.resx">
+      <DependentUpon>rptConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultation Reports\rptFaConsultationApplicantCard.resx">
+      <DependentUpon>rptFaConsultationApplicantCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultation Reports\rptFaConsultationApplicants.resx">
+      <DependentUpon>rptFaConsultationApplicants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptEnExerciseResult.resx">
+      <DependentUpon>rptEnExerciseResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExerciseResult.resx">
+      <DependentUpon>rptFaExerciseResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptAllReceiptList.resx">
+      <DependentUpon>rptAllReceiptList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptAllChequeList.resx">
+      <DependentUpon>rptAllChequeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptChequeListReturningDates.resx">
+      <DependentUpon>rptChequeListReturningDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptChequeListSendingDates.resx">
+      <DependentUpon>rptChequeListSendingDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptReceiptListSendingDates .resx">
+      <DependentUpon>rptReceiptListSendingDates .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFaStudentFinancialDetails.resx">
+      <DependentUpon>rptFaStudentFinancialDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFaStudentFinancialReciept.resx">
+      <DependentUpon>rptFaStudentFinancialReciept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFaEmployeeFinancialPayOffReport.resx">
+      <DependentUpon>rptFaEmployeeFinancialPayOffReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFaEmployeeFinancialReportDates.resx">
+      <DependentUpon>rptFaEmployeeFinancialReportDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFinancialCommitmentList.resx">
+      <DependentUpon>rptFinancialCommitmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFinancialHeadingStat.resx">
+      <DependentUpon>rptFinancialHeadingStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFuturePaymentsList.resx">
+      <DependentUpon>rptFuturePaymentsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ministerial Reports\rptAlalHesab.resx">
+      <DependentUpon>rptAlalHesab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="rptEnIdCardStaff.resx">
+      <DependentUpon>rptEnIdCardStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFaIdCardStaff.resx">
+      <DependentUpon>rptFaIdCardStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptLevelDeterminationReceipt.resx">
+      <DependentUpon>rptLevelDeterminationReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSignupReceiptTotal.resx">
+      <DependentUpon>rptSignupReceiptTotal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransitionedStudentsPayOff.resx">
+      <DependentUpon>rptTransitionedStudentsPayOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransitionReceipt.resx">
+      <DependentUpon>rptTransitionReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransitionedStudents.resx">
+      <DependentUpon>rptTransitionedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransitionFirstReceipt.resx">
+      <DependentUpon>rptTransitionFirstReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptQuitFirstReceipt.resx">
+      <DependentUpon>rptQuitFirstReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptQuitReceipt.resx">
+      <DependentUpon>rptQuitReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamAbsents.resx">
+      <DependentUpon>rptFaExamAbsents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreEnrollment\rptPreEnrollmentReceipt.resx">
+      <DependentUpon>rptPreEnrollmentReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.resx">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptStudentPeriodResults2.resx">
+      <DependentUpon>rptStudentPeriodResults2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptStudentPeriodResults.resx">
+      <DependentUpon>rptStudentPeriodResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptRegisterAccuracy.resx">
+      <DependentUpon>rptRegisterAccuracy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptReserveListFullStat.resx">
+      <DependentUpon>rptReserveListFullStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamHoldingSeatLabel.resx">
+      <DependentUpon>rptFaExamHoldingSeatLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaOralExamResult.resx">
+      <DependentUpon>rptFaOralExamResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamTopResultList.resx">
+      <DependentUpon>rptFaExamTopResultList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptFaEmployeeFinancialReport.resx">
+      <DependentUpon>rptFaEmployeeFinancialReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ministerial Reports\rptTeacherPayments.resx">
+      <DependentUpon>rptTeacherPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ministerial Reports\rptTeacherPresences.resx">
+      <DependentUpon>rptTeacherPresences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ministerial Reports\rptPayrollReceipt.resx">
+      <DependentUpon>rptPayrollReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ministerial Reports\rptTeachingAbstract.resx">
+      <DependentUpon>rptTeachingAbstract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Poll Reports\rptPollChart.resx">
+      <DependentUpon>rptPollChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Request Reports\rptRequest.resx">
+      <DependentUpon>rptRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBannedStudents.resx">
+      <DependentUpon>rptBannedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnrollments.resx">
+      <DependentUpon>rptEnrollments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptStudentResultDetails.resx">
+      <DependentUpon>rptStudentResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptSectionResults.resx">
+      <DependentUpon>rptSectionResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptExamHoldingList.resx">
+      <DependentUpon>rptExamHoldingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptExamAnalysis.resx">
+      <DependentUpon>rptExamAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptExamParticipateList.resx">
+      <DependentUpon>rptExamParticipateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFormation.resx">
+      <DependentUpon>rptFormation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptNextEnrollmentBannedStudents.resx">
+      <DependentUpon>rptNextEnrollmentBannedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReserveListStat.resx">
+      <DependentUpon>rptReserveListStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptMajorEducationalTools.resx">
+      <DependentUpon>rptMajorEducationalTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptEducationalToolBorrows.resx">
+      <DependentUpon>rptEducationalToolBorrows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptSellReceipts.resx">
+      <DependentUpon>rptSellReceipts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptStoreBorrows.resx">
+      <DependentUpon>rptStoreBorrows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptReturnReceipt.resx">
+      <DependentUpon>rptReturnReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptEducationalToolSupplyStat.resx">
+      <DependentUpon>rptEducationalToolSupplyStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptEducationalToolUseStat.resx">
+      <DependentUpon>rptEducationalToolUseStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptOrderReceipt.resx">
+      <DependentUpon>rptOrderReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptBarCodeStudent.resx">
+      <DependentUpon>rptBarCodeStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptBayganiCodeStudent.resx">
+      <DependentUpon>rptBayganiCodeStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptNCImageLessStudents.resx">
+      <DependentUpon>rptNCImageLessStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptIDImageLessStudents.resx">
+      <DependentUpon>rptIDImageLessStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptRegisterInfo.resx">
+      <DependentUpon>rptRegisterInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptCreditorStudents.resx">
+      <DependentUpon>rptCreditorStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptIncompleteRegisterContacts.resx">
+      <DependentUpon>rptIncompleteRegisterContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptEnExamCard.resx">
+      <DependentUpon>rptEnExamCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptStoreUses.resx">
+      <DependentUpon>rptStoreUses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptRegistersSignupInfo.resx">
+      <DependentUpon>rptRegistersSignupInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDiscountedRegisters.resx">
+      <DependentUpon>rptDiscountedRegisters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptEPaymentList.resx">
+      <DependentUpon>rptEPaymentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReceiptList.resx">
+      <DependentUpon>rptReceiptList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSignupStatBySection.resx">
+      <DependentUpon>rptSignupStatBySection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMasterCard.resx">
+      <DependentUpon>rptMasterCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptStoreStat.resx">
+      <DependentUpon>rptStoreStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamReportCard.resx">
+      <DependentUpon>rptFaExamReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptEnExamReportCard.resx">
+      <DependentUpon>rptEnExamReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptEnExamResult.resx">
+      <DependentUpon>rptEnExamResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptExamRequestList.resx">
+      <DependentUpon>rptExamRequestList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamResult.resx">
+      <DependentUpon>rptFaExamResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInstituteSignup.resx">
+      <DependentUpon>rptInstituteSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMessage.resx">
+      <DependentUpon>rptMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptRegisterStat.resx">
+      <DependentUpon>rptRegisterStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptRegisterContacts.resx">
+      <DependentUpon>rptRegisterContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnClassActivityList.en.resx">
+      <DependentUpon>rptEnClassActivityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnClassActivityList.resx">
+      <DependentUpon>rptEnClassActivityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Educational Reports\rptStudentResults.resx">
+      <DependentUpon>rptStudentResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVacationReceipt.resx">
+      <DependentUpon>rptVacationReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReserveReceipt.resx">
+      <DependentUpon>rptReserveReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFaReportCard.resx">
+      <DependentUpon>rptFaReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnReportCard.resx">
+      <DependentUpon>rptEnReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaExamCard.resx">
+      <DependentUpon>rptFaExamCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptEnAnswersheetHeader.resx">
+      <DependentUpon>rptEnAnswersheetHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam Reports\rptFaAnswersheetHeader.resx">
+      <DependentUpon>rptFaAnswersheetHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFullQuitedStudents.resx">
+      <DependentUpon>rptFullQuitedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptQuitedStudents.resx">
+      <DependentUpon>rptQuitedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEntryStudents.resx">
+      <DependentUpon>rptEntryStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnIdCard.resx">
+      <DependentUpon>rptEnIdCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStudentAbsences.resx">
+      <DependentUpon>rptStudentAbsences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptSellReceipt.resx">
+      <DependentUpon>rptSellReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptBorrowReceipt.resx">
+      <DependentUpon>rptBorrowReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptDebtorStudents.resx">
+      <DependentUpon>rptDebtorStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnClassList.en.resx">
+      <DependentUpon>rptEnClassList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnClassList.resx">
+      <DependentUpon>rptEnClassList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financial Reports\rptChequeList.resx">
+      <DependentUpon>rptChequeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFaClassList.resx">
+      <DependentUpon>rptFaClassList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSignupStat.resx">
+      <DependentUpon>rptSignupStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFaIdCard.resx">
+      <DependentUpon>rptFaIdCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSignupReceipt.resx">
+      <DependentUpon>rptSignupReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptStoreSells.resx">
+      <DependentUpon>rptStoreSells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStudentContacts.resx">
+      <DependentUpon>rptStudentContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store Reports\rptToolSupply.resx">
+      <DependentUpon>rptToolSupply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVacationRegisters.resx">
+      <DependentUpon>rptVacationRegisters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Reports\rptImageLessStudents.resx">
+      <DependentUpon>rptImageLessStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Website Reports\rptWebsiteCredential.resx">
+      <DependentUpon>rptWebsiteCredential.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

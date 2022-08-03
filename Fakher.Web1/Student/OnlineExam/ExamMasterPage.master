@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ExamMasterPage.master.cs"
+    Inherits="Student_OnlineExam_ExamMasterPage" %>
+
+<%@ Register TagPrefix="uc1" TagName="UserBar" Src="~/UserControls/UserBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>آزمــون اینترنتی</title>
+    <meta http-equiv="Content-Language" content="fa-IR" />
+    <meta name="description" content="موسسه آموزش عالی آزاد فاخر" />
+    <link href="../../StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap-flipped.min.css" rel="stylesheet" />
+    <link href="/Content/css/CustomStyle.css" rel="stylesheet" />
+     <script type="text/javascript" src="/Content/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        var serverTimeHour;
+        var serverTimeMinute;
+        var serverTimeSecond;
+        var lblTime;
+
+        function updateServerTime() {
+            if (serverTimeHour == 0 && serverTimeMinute == 0 && serverTimeSecond == 0)
+                return;
+            if (lblTime == null)
+                return;
+
+            serverTimeSecond++;
+            if (serverTimeSecond >= 60) {
+                serverTimeMinute++;
+                serverTimeSecond = 0;
+            }
+            if (serverTimeMinute >= 60) {
+                serverTimeHour++;
+                serverTimeMinute = 0;
+            }
+            if (serverTimeHour >= 24) {
+                serverTimeHour = 0;
+            }
+            var hour = serverTimeHour < 10 ? '0' + serverTimeHour : serverTimeHour;
+            var minute = serverTimeMinute < 10 ? '0' + serverTimeMinute : serverTimeMinute;
+            var second = serverTimeSecond < 10 ? '0' + serverTimeSecond : serverTimeSecond;
+
+            lblTime.innerText = hour + ':' + minute + ':' + second;
+            lblTime.textContent = hour + ':' + minute + ':' + second;
+        }
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--[if lt IE 7]>
+    <script language="JavaScript">
+    function correctPNG() // correctly handle PNG transparency in Win IE 5.5 && 6.
+    {
+        var arVersion = navigator.appVersion.split("MSIE");
+        var version = parseFloat(arVersion[1]);
+       if ((version >= 5.5) && (document.body.filters)) 
+       {
+          for(var i=0; i<document.images.length; i++)
+          {
+              var img = document.images[i];
+              var imgName = img.src.toUpperCase();
+             if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+             {
+                 var imgID = (img.id) ? "id='" + img.id + "' " : "";
+                 var imgClass = (img.className) ? "class='" + img.className + "' " : "";
+                 var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' ";
+                 var imgStyle = "display:inline-block;" + img.style.cssText;
+                if (img.align == "left") imgStyle = "float:left;" + imgStyle;
+                if (img.align == "right") imgStyle = "float:right;" + imgStyle;
+                if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle;
+                 var strNewHTML = "<span " + imgID + imgClass + imgTitle
+                     + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+                         + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+                             + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>";
+                 img.outerHTML = strNewHTML;
+                 i = i - 1;
+             }
+          }
+       }    
+    }
+    window.attachEvent("onload", correctPNG);
+    </script>
+    <![endif]-->
+</head>
+<body class="home">
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+    <div id="wrapper" class="inner">
+        <div id="inner">
+            <div id="top">
+                <table style="width: 100%; padding-top: 0px; padding-bottom: 0px">
+                    <tr>
+                        <td style="text-align: right; width: 290px">
+                            <asp:Label ID="lblDate" runat="server" Text="یک شنبه، چهارم شهریور ماه" Font-Names="Tahoma"
+                                Font-Size="9pt" ForeColor="White"></asp:Label>
+                        </td>
+                        <td style="text-align: right; width: 10px">
+                            <asp:Label ID="Label3" runat="server" Text=" | " Font-Names="Tahoma" Font-Size="9pt"></asp:Label>
+                        </td>
+                        <td style="text-align: right;">
+                            <asp:Label ID="lblTime" runat="server" Text="Label" Font-Names="Tahoma" ForeColor="White"
+                                Font-Size="9pt"></asp:Label>
+                        </td>
+                        <td>
+                            &&nbsp;
+                        </td>
+                        <td style="text-align: left">
+                            <asp:Panel ID="pnlUserBar" runat="server" Visible="False" HorizontalAlign="Left">
+                                <asp:Label ID="StudentName" runat="server" Text="" Font-Names="Tahoma" Font-Size="9pt"></asp:Label>
+                                <asp:Label ID="Label4" runat="server" Text="[ " Font-Names="Tahoma"></asp:Label>
+                                <asp:LinkButton ID="lnkBtnSignout" runat="server" Font-Names="Tahoma" Font-Bold="True"
+                                    OnClick="lnkBtnSignout_OnClick" ForeColor="#ffffff" CausesValidation="false">خـــــروج</asp:LinkButton>
+                                <asp:Label ID="Label5" runat="server" Text=" ]" Font-Names="Tahoma"></asp:Label>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="topMenu" style="background-color:orange;height:35px;line-height:35px;margin-bottom:20px;">
+                <table >
+                    <tr>
+                        <td >
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Student/OnlineExam/pageExamList.aspx"
+                                 ForeColor="White" Style="margin-left: 20px;">صفحه اول</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Student/OnlineExam/Contact.aspx"
+                                ForeColor="White" Style="margin-left: 20px;">تماس با موسسه</asp:HyperLink>
+                        </td>
+                        <td> <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="http://eram.fakher.ac.ir"
+                                 ForeColor="White" Style="margin-left: 20px;">شعبه ارم</asp:HyperLink></td>
+                         <td> <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="http://farhangshahr.fakher.ac.ir"
+                                 ForeColor="White" Style="margin-left: 20px;">شعبه فرهنگشهر</asp:HyperLink></td>
+                        <td> <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="http://modares.fakher.ac.ir"
+                                 ForeColor="White" Style="margin-left: 20px;">شعبه مدرس</asp:HyperLink></td>
+                         <td> <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="http://marvdasht.fakher.ac.ir"
+                                 ForeColor="White" Style="margin-left: 20px;">شعبه مرودشت</asp:HyperLink></td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder ID="TopContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="content" style="background: #ffffff;" dir="rtl" class="container">
+                <%--                <div id="right">--%>
+                <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                <%--                </div>--%>
+                <div id="pageBody" class="pagebodysection" style="margin-left: auto; margin-right: auto">
+                    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <table width="760" style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td style="text-align: center">
+                        <asp:Label ID="Label1" runat="server" Text="کلیه حقوق مادی و معنوی این وب سایت متعلق به "
+                            Font-Names="Tahoma"></asp:Label>
+                        <a href="http://www.fakher.ac.ir">موسسه آموزش عالی آزاد فاخر</a>
+                        <asp:Label ID="Label2" runat="server" Text=" است" Font-Names="Tahoma"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">
+                        <asp:Panel ID="pnlWebgozar" runat="server" Style="text-align: center; margin-left: auto;
+                            margin-right: auto;" Width="140px">
+                            <!-- Begin WebGozar.com Counter code -->
+
+                            <script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=2318754&&amp;t=counter"></script>
+
+                            <noscript>
+                                <a href="http://www.webgozar.com/counter/stats.aspx?code=2318754" target="_blank">&&#1570;&&#1605;&&#1575;&&#1585;</a></noscript>
+                            <!-- End WebGozar.com Counter code -->
+                        </asp:Panel>
+                        <div style="text-align: center; margin-left: auto; margin-right: auto; width: 140px">
+                            <!-- Histats.com START (aync)-->
+
+                            <script type="text/javascript">                                var _Hasync = _Hasync || []; _Hasync.push(['Histats.start', '1,1631325,4,0,0,0,00010000']); _Hasync.push(['Histats.fasi', '1']); _Hasync.push(['Histats.track_hits', '']); (function() { var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true; hs.src = ('http://s10.histats.com/js15_as.js'); (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs); })();</script>
+
+                            <noscript>
+                                <a href="http://www.histats.com" target="_blank">
+                                    <img src="http://sstatic1.histats.com/0.gif?1631325&&101" alt="website statistics"
+                                        border="0"></a></noscript>
+                            <!-- Histats.com END -->
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

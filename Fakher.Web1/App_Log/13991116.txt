@@ -1,0 +1,13 @@
+10:55:06 ق.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+11:05:13 ق.ظ -- No Person -- Application End
+11:05:25 ق.ظ -- No Person -- Application Start
+11:07:27 ق.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+11:46:53 ق.ظ -- No Person -- Application End
+11:47:24 ق.ظ -- No Person -- Application Start
+11:48:32 ق.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+12:08:38 ب.ظ -- No Person -- Application End
+12:08:49 ب.ظ -- No Person -- Application Start
+12:09:08 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+12:29:31 ب.ظ -- No Person -- Application End
+12:29:35 ب.ظ -- No Person -- Application Start
+12:29:46 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش

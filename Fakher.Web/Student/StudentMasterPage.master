@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true"
+    CodeFile="StudentMasterPage.master.cs" Inherits="Student_StudentMasterPage" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.ReportViewer.WebForms" Assembly="Telerik.ReportViewer.WebForms, Version=5.1.11.713, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--    <style type="text/css" media="print">--%>
+    <%--        body *--%>
+    <%--        {--%>
+    <%--            visibility: hidden;--%>
+    <%--        }--%>
+    <%--        --%>
+    <%--        .print *--%>
+    <%--        {--%>
+    <%--        	visibility: visible;--%>
+    <%--        }--%>
+    <%--        --%>
+    <%--        .print--%>
+    <%--        {--%>
+    <%--            /*display: block;*/--%>
+    <%--            position:absolute;--%>
+    <%--            top:0;--%>
+    <%--            left:0;--%>
+    <%--        }--%>
+    <%--    </style>--%>
+
+    <script type="text/javascript">
+        function OnClientButtonClicked(sender, args) {
+            window.print();
+        }
+    </script>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RightContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="TopRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Width="210px" OnItemClick="RadPanelBar1_ItemClick">
+        <Items>
+            <telerik:RadPanelItem runat="server" Text="منوی سیستم آمـــوزش" Font-Names="Tahoma"
+                Expanded="true" PreventCollapse="True">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="صفحه اول (پنل سیستم آموزش)" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/Default.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="مشخصات دانشجویی" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/Default.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="درخـواسـت هـا" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/pageRequest.aspx">
+                    </telerik:RadPanelItem>
+                    <%--                    <telerik:RadPanelItem runat="server" Text="ثـبـــت نـام در کلـاس" CssClass="CustomStyle"--%>
+                    <%--                        Font-Names="Tahoma" NavigateUrl="~/Student/pageSectionEnroll.aspx">--%>
+                    <%--                    </telerik:RadPanelItem>--%>
+                    <telerik:RadPanelItem runat="server" Text="ثبـت نام در مصاحبه" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/pageInterviewEnroll.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="ثبـت نام در آزمـونهای آنلاین" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/pageExamEnroll.aspx">
+                    </telerik:RadPanelItem>
+                       <telerik:RadPanelItem runat="server" Text="غیبت ها" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/pageAbsence.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="پیام رسان داخلی موسسه" Font-Names="Tahoma"
+                Expanded="true" PreventCollapse="True">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="صندوق پیام های دریافتی" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/MessageBox/Default.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="پیام جــدیــد" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/MessageBox/pageCompose.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="فروشگاه اینترنتی موسسه" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="خرید اینترنتی جزوه و کتاب" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/Shop/Buy.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="لیست سفارش ها" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/Shop/Default.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="مشــاوره حضوری" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="لیست جلسات مشاوره" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Student/ConsultationSession/Default.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="گــزارش هـا" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="رسیــد ثبــت نـام" CssClass="CustomStyle"
+                        Font-Names="Tahoma" PostBack="true" Value="rptSignupReceipt">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="کــارت دانشجــویـی" CssClass="CustomStyle"
+                        Font-Names="Tahoma" PostBack="true" Value="rptIdCard">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="منوی سیستم" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="تغییر رمـز عـبـــور" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/ChangePassword.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="خـــروج از سیستـم" CssClass="CustomStyle"
+                        Font-Names="Tahoma" NavigateUrl="~/Signout.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+        </Items>
+    </telerik:RadPanelBar>
+    <asp:ContentPlaceHolder ID="BottomRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CenterContentPlaceHolder" runat="Server">
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+        <Windows>
+            <telerik:RadWindow ID="RadWindow1" runat="server" Modal="true" Title="نمـایـش گـــزارش"
+                VisibleOnPageLoad="True" Width="800px" Height="500px" VisibleTitlebar="true"
+                VisibleStatusbar="true" Visible="False" Style="z-index: 200001;" ShowOnTopWhenMaximized="true">
+                <ContentTemplate>
+                    <telerik:RadToolBar ID="RadToolBar1" runat="server" Width="100%" Font-Names="Tahoma"
+                        OnClientButtonClicked="OnClientButtonClicked" Visible="false">
+                        <Items>
+                            <telerik:RadToolBarButton runat="server" Text="چـــاپ" Font-Names="Tahoma">
+                            </telerik:RadToolBarButton>
+                        </Items>
+                    </telerik:RadToolBar>
+                    <asp:Panel ID="Panel1" runat="server" Height="100%" Direction="RightToLeft">
+                        <telerik:ReportViewer ID="ReportViewer1" runat="server" Width="100%" Height="100%"
+                            ProgressText="صبـر کنـیـــد..." ToolbarVisible="false" ParametersAreaVisible="False"
+                            Font-Names="Tahoma">
+                        </telerik:ReportViewer>
+                    </asp:Panel>
+                </ContentTemplate>
+            </telerik:RadWindow>
+        </Windows>
+    </telerik:RadWindowManager>
+    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

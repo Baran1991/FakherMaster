@@ -1,0 +1,25 @@
+12:03:45 ق.ظ -- No Person -- Application Start
+12:04:30 ق.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+12:05:17 ق.ظ -- No Person -- Application End
+12:08:10 ق.ظ -- No Person -- Application Start
+12:20:06 ق.ظ -- No Person -- Application End
+12:23:45 ق.ظ -- No Person -- Application Start
+12:24:16 ق.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+12:33:08 ق.ظ -- No Person -- Application End
+09:16:39 ق.ظ -- No Person -- Application Start
+09:17:27 ق.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+09:27:58 ق.ظ -- No Person -- Application End
+12:48:15 ب.ظ -- No Person -- Application Start
+12:49:07 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+03:23:57 ب.ظ -- No Person -- Application End
+03:57:47 ب.ظ -- No Person -- Application Start
+03:58:55 ب.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+06:03:01 ب.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+06:03:12 ب.ظ -- No Person -- Application End
+06:03:32 ب.ظ -- No Person -- Application Start
+06:04:01 ب.ظ -- No Person -- Application End
+06:04:55 ب.ظ -- No Person -- Application Start
+06:05:12 ب.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+11:48:00 ب.ظ -- No Person -- Application End
+11:49:11 ب.ظ -- No Person -- Application Start
+11:49:35 ب.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش

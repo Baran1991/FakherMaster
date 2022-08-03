@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4090CAC-FE3F-4AA3-B006-076E8C916C0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fakher.Core</RootNamespace>
+    <AssemblyName>Fakher.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accusoft.FormDirector2.Net, Version=2.0.22.0, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Accusoft.FormDirector2.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Accusoft.FormFix4.Net, Version=4.0.25.0, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Accusoft.FormFix4.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Accusoft.ScanFixXpress6.NET, Version=6.0.25.0, Culture=neutral, PublicKeyToken=80d669b8b606a2da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Accusoft.ScanFixXpress6.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.4.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=3.1.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.3.1.0\lib\net461\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NHibernate, Version=5.3.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.5.3.11\lib\net461\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=8.0.14.225, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TelerikDLL\naseri_bin\Bin\Telerik.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Reporting.Data.Schema, Version=14.1.20.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Fakher Update\Solution\Fakher.Reports\bin\Debug\Telerik.Reporting.Data.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2021.2.511.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Fakher_App\Telerik.WinControls.RadDock.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccessLayer\DbEventListener.cs" />
+    <Compile Include="DataAccessLayer\DbOperations.cs" />
+    <Compile Include="DataAccessLayer\DbContext.cs" />
+    <Compile Include="DataAccessLayer\DbObject.cs" />
+    <Compile Include="DomainModel\BankAccount\BankAccount.cs" />
+    <Compile Include="DomainModel\BankAccount\ChequeBook.cs" />
+    <Compile Include="DomainModel\Buffet\BuffetSale.cs" />
+    <Compile Include="DomainModel\Buffet\BuffetSaleItem.cs" />
+    <Compile Include="DomainModel\Buffet\BuffetProduct.cs" />
+    <Compile Include="DomainModel\Buffet\BuffetSeller.cs" />
+    <Compile Include="DomainModel\Buffet\BuffetSupply.cs" />
+    <Compile Include="DomainModel\Career\Career.cs" />
+    <Compile Include="DomainModel\Career\CareerApplicant.cs" />
+    <Compile Include="DomainModel\Consult\Consultation.cs" />
+    <Compile Include="DomainModel\Consult\ConsultationApplicant.cs" />
+    <Compile Include="DomainModel\Consult\ConsultationSession.cs" />
+    <Compile Include="DomainModel\Educational\EducationalEvent.cs" />
+    <Compile Include="DomainModel\Exam\ExerciseParticipate.cs" />
+    <Compile Include="DomainModel\Financial\CreditPayment.cs" />
+    <Compile Include="DomainModel\Financial\FinancialCommitment.cs" />
+    <Compile Include="DomainModel\Financial\PayRequest\PayTransactionItem.cs" />
+    <Compile Include="DomainModel\Fundamental\Branch.cs" />
+    <Compile Include="DomainModel\Ministerial\PayrollPaid.cs" />
+    <Compile Include="DomainModel\Person\Delay.cs" />
+    <Compile Include="DomainModel\Person\Notes.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\ExerciseTrainingItem.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\LessonTrainingItem.cs" />
+    <Compile Include="DomainModel\Request\RequestDefaultAns.cs" />
+    <Compile Include="DomainModel\Reserve\Reserve.cs" />
+    <Compile Include="DomainModel\Reserve\ReserveList.cs" />
+    <Compile Include="DomainModel\Store\EducationalToolSupply.cs" />
+    <Compile Include="DomainModel\Order\Order.cs" />
+    <Compile Include="DomainModel\Order\OrderItem.cs" />
+    <Compile Include="DomainModel\Person\EducationalInfo.cs" />
+    <Compile Include="DomainModel\Person\PersonalInfo.cs" />
+    <Compile Include="DomainModel\Poll\Poll.cs" />
+    <Compile Include="DomainModel\Poll\PollItem.cs" />
+    <Compile Include="DomainModel\Poll\PollParticipate.cs" />
+    <Compile Include="DomainModel\PreEnrollment\PreEnrollment.cs" />
+    <Compile Include="DomainModel\PreEnrollment\PreEnrollmentList.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\PostalTrainingItem.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\PostalTool.cs" />
+    <Compile Include="DomainModel\Sms\Sms.cs" />
+    <Compile Include="DomainModel\Sms\SmsGroup.cs" />
+    <Compile Include="DomainModel\Student\Certificate.cs" />
+    <Compile Include="DomainModel\Student\EducationalCode.cs" />
+    <Compile Include="DomainModel\Student\EnrollableLesson.cs" />
+    <Compile Include="DomainModel\Student\ActivityMark.cs" />
+    <Compile Include="DomainModel\Student\Transition.cs" />
+    <Compile Include="DomainModel\Student\StudentConfiguration.cs" />
+    <Compile Include="DomainModel\System\AccessTag.cs" />
+    <Compile Include="DomainModel\System\AppLog.cs" />
+    <Compile Include="DomainModel\Website\Attachment.cs" />
+    <Compile Include="DomainModel\Website\License\MarkEntryLicense.cs" />
+    <Compile Include="DomainModel\Website\NewsletterSubscriber.cs" />
+    <Compile Include="DomainModel\Website\WebMedia.cs" />
+    <Compile Include="rComponents\MessageException.cs" />
+    <Compile Include="DomainModel\Website\WebRegister.cs" />
+    <Compile Include="DomainModel\Website\WebsiteWidget.cs" />
+    <Compile Include="rComponents\Converter.cs" />
+    <Compile Include="rComponents\Dynamic.cs" />
+    <Compile Include="DataAccessLayer\ImageUserType.cs" />
+    <Compile Include="DomainModel\Exam\AnswerSheetView.cs" />
+    <Compile Include="DomainModel\Exam\ExamEssayQuestion.cs" />
+    <Compile Include="DomainModel\Exam\ExamHolding.cs" />
+    <Compile Include="DomainModel\Exam\ExamParticipateAnswer.cs" />
+    <Compile Include="DomainModel\Exam\ExamRequest.cs" />
+    <Compile Include="DomainModel\Student\Mark.cs" />
+    <Compile Include="DomainModel\Request\Request.cs" />
+    <Compile Include="DomainModel\Exam\ExamItem.cs" />
+    <Compile Include="DomainModel\Exam\ExamParticipate.cs" />
+    <Compile Include="DomainModel\Exam\ExamTestQuestion.cs" />
+    <Compile Include="DomainModel\Exam\ExamSection.cs" />
+    <Compile Include="DomainModel\Exam\OnlineExamHolding.cs" />
+    <Compile Include="DomainModel\Exam\OnlineExamParticipate.cs" />
+    <Compile Include="DomainModel\Exam\OralExamHolding.cs" />
+    <Compile Include="DomainModel\Exam\OralExamParticipate.cs" />
+    <Compile Include="DomainModel\Exam\OralMark.cs" />
+    <Compile Include="DomainModel\Exam\ExamPageItem.cs" />
+    <Compile Include="DomainModel\Exam\PaperBasedExamHolding.cs" />
+    <Compile Include="DomainModel\Exam\PaperBasedExamParticipate.cs" />
+    <Compile Include="DomainModel\Exam\ExamPageGroup.cs" />
+    <Compile Include="DomainModel\Exam\ExamPage.cs" />
+    <Compile Include="DomainModel\Exam\Rank.cs" />
+    <Compile Include="DomainModel\Exam\TextPageItem.cs" />
+    <Compile Include="DomainModel\Financial\ElectronicPayment.cs" />
+    <Compile Include="DomainModel\Financial\FinancialEntity.cs" />
+    <Compile Include="DomainModel\Financial\IFinancialEntity.cs" />
+    <Compile Include="DomainModel\Financial\PayRequest\MellatPayTransaction.cs" />
+    <Compile Include="DomainModel\Financial\PayRequest\PayException.cs" />
+    <Compile Include="DomainModel\Financial\PayRequest\PayTransaction.cs" />
+    <Compile Include="DomainModel\Store\EducationalTool.cs" />
+    <Compile Include="DomainModel\Financial\Cash.cs" />
+    <Compile Include="DomainModel\Financial\Cheque.cs" />
+    <Compile Include="DomainModel\Financial\Discount.cs" />
+    <Compile Include="DomainModel\Financial\FinancialDocument.cs" />
+    <Compile Include="DomainModel\Financial\FinancialItem.cs" />
+    <Compile Include="DomainModel\Financial\Payment.cs" />
+    <Compile Include="DomainModel\Financial\Receipt.cs" />
+    <Compile Include="DomainModel\Fundamental\Department.cs" />
+    <Compile Include="DomainModel\Fundamental\EducationalPeriod.cs" />
+    <Compile Include="DomainModel\Store\EducationalToolGroup.cs" />
+    <Compile Include="DomainModel\Fundamental\GroupTool.cs" />
+    <Compile Include="DomainModel\Fundamental\LessonEquivalence.cs" />
+    <Compile Include="DomainModel\Fundamental\LessonHolding.cs" />
+    <Compile Include="DomainModel\Fundamental\LessonTool.cs" />
+    <Compile Include="DomainModel\Exam\ExamForm.cs" />
+    <Compile Include="DomainModel\Fundamental\ResponsiblePerson.cs" />
+    <Compile Include="DomainModel\Ministerial\Contract.cs" />
+    <Compile Include="DomainModel\Ministerial\EmploymentContract.cs" />
+    <Compile Include="DomainModel\Ministerial\Payroll.cs" />
+    <Compile Include="DomainModel\Ministerial\PayrollContract.cs" />
+    <Compile Include="DomainModel\Ministerial\PayrollItem.cs" />
+    <Compile Include="DomainModel\Ministerial\PayrollItemInfo.cs" />
+    <Compile Include="DomainModel\Ministerial\RateElement.cs" />
+    <Compile Include="DomainModel\Ministerial\TeachingContract.cs" />
+    <Compile Include="DomainModel\Person\Presence.cs" />
+    <Compile Include="DomainModel\Person\Staff.cs" />
+    <Compile Include="DomainModel\System\Messages\IMessageReceiver.cs" />
+    <Compile Include="DomainModel\System\Messages\Message.cs" />
+    <Compile Include="DomainModel\System\Messages\MessageReceiver.cs" />
+    <Compile Include="DomainModel\Person\Photo.cs" />
+    <Compile Include="DomainModel\Student\Ban.cs" />
+    <Compile Include="DomainModel\Student\Enrollment.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\ExamTrainingItem.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\SectionTrainingItem.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\TuitionFee.cs" />
+    <Compile Include="DomainModel\Section\ObserveMark.cs" />
+    <Compile Include="DomainModel\Section\Makeup.cs" />
+    <Compile Include="DomainModel\Section\Replacement.cs" />
+    <Compile Include="DomainModel\Section\SectionItem.cs" />
+    <Compile Include="DomainModel\Person\Absence.cs" />
+    <Compile Include="DomainModel\Person\ContactInfo.cs" />
+    <Compile Include="DomainModel\Employee\Employee.cs" />
+    <Compile Include="DomainModel\Exam\Exam.cs" />
+    <Compile Include="DomainModel\Section\Formation.cs" />
+    <Compile Include="DomainModel\Student\Register.cs" />
+    <Compile Include="DomainModel\Student\Quit.cs" />
+    <Compile Include="DomainModel\Person\Use.cs" />
+    <Compile Include="DomainModel\Person\UserInfo.cs" />
+    <Compile Include="DomainModel\Protocol\EducationalRule.cs\EducationalRule.cs" />
+    <Compile Include="DomainModel\Protocol\Evaluation\EvaluationProtocol.cs" />
+    <Compile Include="DomainModel\Protocol\Placement\PlacementItem.cs" />
+    <Compile Include="DomainModel\Protocol\Placement\PlacementProtocol.cs" />
+    <Compile Include="DomainModel\Protocol\Protocol.cs" />
+    <Compile Include="DomainModel\Protocol\Result\ResultProtocol.cs" />
+    <Compile Include="DomainModel\Section\Section.cs" />
+    <Compile Include="DomainModel\Fundamental\Lesson.cs" />
+    <Compile Include="DomainModel\Fundamental\Major.cs" />
+    <Compile Include="DomainModel\Student\Participate.cs" />
+    <Compile Include="DomainModel\Person\Person.cs" />
+    <Compile Include="DomainModel\Fundamental\Place.cs" />
+    <Compile Include="DomainModel\Person\Privilege.cs" />
+    <Compile Include="DomainModel\Protocol\Evaluation\EvaluationGroup.cs" />
+    <Compile Include="DomainModel\Protocol\Evaluation\EvaluationItem.cs" />
+    <Compile Include="DomainModel\Protocol\Financial\SalaryRateItem.cs" />
+    <Compile Include="DomainModel\Protocol\Financial\SalaryRateProtocol.cs" />
+    <Compile Include="DomainModel\Protocol\Result\ResultLabel.cs" />
+    <Compile Include="DomainModel\Student\Student.cs" />
+    <Compile Include="DomainModel\Teacher\Teacher.cs" />
+    <Compile Include="DomainModel\System\AccessGroup.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\TrainingItem.cs" />
+    <Compile Include="DomainModel\Protocol\TrainingPlan\TrainingPlan.cs" />
+    <Compile Include="DomainModel\System\AppSetting.cs" />
+    <Compile Include="DomainModel\System\AppEvent.cs" />
+    <Compile Include="DomainModel\System\AppPolicy.cs" />
+    <Compile Include="DomainModel\System\DbPolicy.cs" />
+    <Compile Include="DomainModel\System\EntityEvent.cs" />
+    <Compile Include="DomainModel\System\Messages\InternalPostMaster.cs" />
+    <Compile Include="DomainModel\Website\DepartmentPage.cs" />
+    <Compile Include="DomainModel\Website\License\EnrollmentLicense.cs" />
+    <Compile Include="DomainModel\Website\MenuItem.cs" />
+    <Compile Include="DomainModel\Website\License\ReportCardLicense.cs" />
+    <Compile Include="DomainModel\Website\WebNews.cs" />
+    <Compile Include="DomainModel\Website\Webpage.cs" />
+    <Compile Include="DomainModel\Website\WebsiteSection.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="rComponents\AdlerCheckSum.cs" />
+    <Compile Include="rComponents\EncryptDecrypt.cs" />
+    <Compile Include="rComponents\IProgressive.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rComponents\EnumOperations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rComponents\MIMEAssistant.cs" />
+    <Compile Include="rComponents\PersianDateTime\PersianDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rComponents\PersianDateTime\PersianDateNhibernate.cs" />
+    <Compile Include="rComponents\PersianDateTime\Time.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rComponents\rApplicationEventFramework\EventPolicy\IDbPolicy.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\EventPolicy\IPolicy.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\EventPolicy\ISystemPolicy.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\EntityEventArgs.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\IApplicationEvent.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\ApplicationEventHandler.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\EventClass.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\EventClassProperty.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\IAppLog.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\IEntityEvent.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\rApplicationEventFactory.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\rEventListener.cs" />
+    <Compile Include="rComponents\rApplicationEventFramework\Structure\MeetPolicyEventArgs.cs" />
+    <Compile Include="rComponents\rSentinel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rComponents\Services.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\IConfigurableReport.cs" />
+    <Compile Include="Report\IReportParameterForm.cs" />
+    <Compile Include="rFormProcessor\clsBarcodeImaging.cs" />
+    <Compile Include="rFormProcessor\ProcessResult.cs" />
+    <Compile Include="rFormProcessor\rFormProcessor.cs" />
+    <Compile Include="rFormProcessor\rImageProcessor.cs" />
+    <Compile Include="rTwain\rTwainControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rTwain\rTwainControl.designer.cs">
+      <DependentUpon>rTwainControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rTwain\TwainDefs.cs" />
+    <Compile Include="rTwain\TwainImageConverter.cs" />
+    <Compile Include="rTwain\TwainLib.cs" />
+    <Compile Include="Sentinel\Sentinel.cs" />
+    <Compile Include="DomainModel\Sms\SmsReceiver.cs" />
+    <Compile Include="SettingKeys.cs" />
+    <Compile Include="Sms\SmsHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web References\BPService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ir.afe.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\v1.ir.afe.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Website\InternetPostMaster.cs" />
+    <Compile Include="Sms\SmsPostMaster.cs" />
+    <Compile Include="Website\WebsiteHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Web References\v1.ir.afe.www\webservice.disco" />
+    <None Include="Web References\ir.afe.www\BoxService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\BPService\IPaymentGateway.wsdl" />
+    <None Include="Web References\BPService\PaymentGatewayImplService.wsdl" />
+    <None Include="Web References\BPService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ir.afe.www\BoxService.wsdl" />
+    <None Include="Web References\ir.afe.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\v1.ir.afe.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\v1.ir.afe.www\webservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.afe.ir/WebService/V5/BoxService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ir.afe.www\</RelPath>
+      <UpdateFromURL>http://www.afe.ir/WebService/V5/BoxService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Fakher_Core_ir_afe_www_BoxService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.afe.ir/WebService/webservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\v1.ir.afe.www\</RelPath>
+      <UpdateFromURL>http://www.afe.ir/WebService/webservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Fakher_Core_v1_ir_afe_www_WebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://bpm.shaparak.ir/pgwchannel/services/pgw%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BPService\</RelPath>
+      <UpdateFromURL>https://bpm.shaparak.ir/pgwchannel/services/pgw%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Fakher_Core_BPService_PaymentGatewayImplService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

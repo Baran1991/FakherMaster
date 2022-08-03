@@ -1,0 +1,8 @@
+12:15:20 ق.ظ -- No Person -- Application End
+01:10:01 ب.ظ -- No Person -- Application Start
+05:14:59 ب.ظ -- No Person -- Application End
+11:02:39 ب.ظ -- No Person -- Application Start
+11:48:42 ب.ظ -- No Person -- Application End
+11:50:34 ب.ظ -- No Person -- Application Start
+11:51:20 ب.ظ -- اشکان درختکار (27447) -- ورود به سیستم آموزش
+11:58:53 ب.ظ -- No Person -- Application End

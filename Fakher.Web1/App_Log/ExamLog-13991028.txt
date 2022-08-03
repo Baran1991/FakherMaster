@@ -1,0 +1,55 @@
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:11:49 ق.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|12:12:05 ق.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:12:05 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw()|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:12:26 ق.ظ|No ExamParticipate|Redirect(OEP is null)|wblljnicyq0xa4alk4wwvupe|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:12:47 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw()|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:13:06 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw()|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|12:21:39 ق.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:08:27 ق.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:08:28 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw()|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:08:57 ق.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw()|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:09:06 ق.ظ|اشکان درختکار (173672)|Saved Page #1((1,2)(3,1)(4,2)(5,1)) Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:09:06 ق.ظ|اشکان درختکار (173672)|go to finish page|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:09:23 ق.ظ|اشکان درختکار (173672)|Backed To Exercise|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:09:23 ق.ظ|اشکان درختکار (173672)|Go to page #1|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx|04:47:11 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|04:48:36 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|04:51:04 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:35:59 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|05:39:39 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:39:40 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:41:57 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:54:24 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:06:46 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:32:35 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|06:33:03 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:33:03 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:36:45 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|06:37:14 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|06:37:14 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:22:22 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:23:24 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:23:24 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:27:48 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:28:45 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:28:45 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:34:32 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(20)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:34:33 ب.ظ|اشکان درختکار (173672)|Saved Page #1((1,2)(2,3)) Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:34:33 ب.ظ|اشکان درختکار (173672)|go to finish page|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:34:39 ب.ظ|اشکان درختکار (173672)|Backed To Exercise|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:34:39 ب.ظ|اشکان درختکار (173672)|Go to page #1|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:34:49 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:34:49 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:36:41 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:37:43 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:38:46 ب.ظ|No ExamParticipate|Redirect(OEP is null)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:39:54 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:39:54 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:52:56 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:57:52 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:57:52 ب.ظ|اشکان درختکار (173672)|Saved Page #1((1,2)(2,3)(3,0)) Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:57:52 ب.ظ|اشکان درختکار (173672)|go to finish page|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:58:14 ب.ظ|اشکان درختکار (173672)|Backed To Exercise|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|10:58:14 ب.ظ|اشکان درختکار (173672)|Go to page #1|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|10:59:06 ب.ظ|اشکان درختکار (173672)|Started Exam|edhfvbumw42thed0bduxa1yc|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|10:59:06 ب.ظ|اشکان درختکار (173672)|Initialized Page #1 Raw(23)|edhfvbumw42thed0bduxa1yc|127.0.0.1

@@ -1,0 +1,11 @@
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|05:30:30 ب.ظ|سجاد کشاورز (174814)|Started Exam|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:30:30 ب.ظ|سجاد کشاورز (174814)|Initialized Page #1 Raw()|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|05:30:41 ب.ظ|سجاد کشاورز (173678)|Started Exam|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:30:41 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw(00)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:30:48 ب.ظ|No ExamParticipate|Redirect(OEP is null)|ouvlx0f3zwyyn1fpy5qxslmz|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:31:10 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw(00)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:35:55 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw(00)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:43:58 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw(00)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:43:58 ب.ظ|سجاد کشاورز (173678)|Saved Page #1((1,0)(2,0)(3,0)) Raw(00)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|05:43:58 ب.ظ|سجاد کشاورز (173678)|go to finish page|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseFinish.aspx|06:27:23 ب.ظ|No ExamParticipate|Redirect(OEP is null)|gtna10q0xsbs2bdmfc3hai3u|127.0.0.1

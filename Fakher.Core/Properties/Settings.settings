@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Fakher.Core.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Fakher_Core_BPService_PaymentGatewayImplService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bpm.shaparak.ir/pgwchannel/services/pgw</Value>
+    </Setting>
+    <Setting Name="Fakher_Core_ir_afe_www_BoxService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.afe.ir/WebService/V5/BoxService.asmx</Value>
+    </Setting>
+    <Setting Name="Fakher_Core_v1_ir_afe_www_WebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.afe.ir/WebService/webservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

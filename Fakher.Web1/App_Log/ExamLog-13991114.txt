@@ -1,0 +1,4 @@
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|09:27:43 ب.ظ|سجاد کشاورز (173678)|Started Exam|ml21qbqw5mpf3axzg3lmkwjf|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|09:27:43 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw()|ml21qbqw5mpf3axzg3lmkwjf|127.0.0.1
+http://localhost:54411/Student/BlackBoard/pageExerciseStart.aspx|09:29:21 ب.ظ|سجاد کشاورز (173678)|Started Exam|bpcnbftv2rzif1oadg3fn5mi|::1
+http://localhost:54411/Student/BlackBoard/pageExercisePage.aspx?pageNum=1|09:29:21 ب.ظ|سجاد کشاورز (173678)|Initialized Page #1 Raw()|bpcnbftv2rzif1oadg3fn5mi|::1

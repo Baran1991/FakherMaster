@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMasterPage.master" AutoEventWireup="true"
+    CodeFile="InstructorMasterPage.master.cs" Inherits="Instructor_InstructorMasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="RightContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="TopRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <telerik:RadPanelBar ID="RadPanelBar1" runat="server" Width="210px" OnItemClick="RadPanelBar1_ItemClick">
+        <Items>
+            <telerik:RadPanelItem runat="server" Text="منوی سیستم آمـــوزش" Font-Names="Tahoma" Expanded="true"
+                PreventCollapse="True">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="صفحه اول (پنل سیستم آموزش)" Font-Names="Tahoma" NavigateUrl="~/Instructor/Default.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="پیام رسان داخلی موسسه" Font-Names="Tahoma"
+                Expanded="true" PreventCollapse="True">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="صندوق پیام های دریافتی" Font-Names="Tahoma" NavigateUrl="~/Instructor/MessageBox/Default.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="ارسال پیام جـدیـد" Font-Names="Tahoma" NavigateUrl="~/Instructor/MessageBox/pageCompose.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="آزمــون هـا" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="ثبت درخواست آزمون" Font-Names="Tahoma"
+                        PostBack="true" NavigateUrl="~/Instructor/pageExamRequest.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="گــزارش هـا" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="فیش حقـوق و دستمــزد" Font-Names="Tahoma"
+                        PostBack="true" NavigateUrl="~/Instructor/rptPayroll.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+            <telerik:RadPanelItem runat="server" Text="منوی سیستم" Font-Names="Tahoma" Expanded="true">
+                <Items>
+                    <telerik:RadPanelItem runat="server" Text="تغییر رمـز عـبـــور" Font-Names="Tahoma"
+                        NavigateUrl="~/ChangePassword.aspx">
+                    </telerik:RadPanelItem>
+                    <telerik:RadPanelItem runat="server" Text="خـــروج از سیستـم" Font-Names="Tahoma" NavigateUrl="~/Signout.aspx">
+                    </telerik:RadPanelItem>
+                </Items>
+            </telerik:RadPanelItem>
+        </Items>
+    </telerik:RadPanelBar>
+    <asp:ContentPlaceHolder ID="BottomRightContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CenterContentPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,78 @@
+11:05:30 ق.ظ -- No Person -- Application Start
+11:06:02 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:11:37 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:11:57 ق.ظ -- No Person -- Application End
+11:12:35 ق.ظ -- No Person -- Application Start
+11:12:54 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:13:39 ق.ظ -- No Person -- Application End
+11:13:48 ق.ظ -- No Person -- Application Start
+11:17:22 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:22:00 ق.ظ -- No Person -- Application End
+11:23:14 ق.ظ -- No Person -- Application Start
+11:23:38 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:25:20 ق.ظ -- No Person -- Application End
+11:26:21 ق.ظ -- No Person -- Application Start
+11:27:06 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:39:14 ق.ظ -- No Person -- Application End
+11:40:41 ق.ظ -- No Person -- Application Start
+11:40:55 ق.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+11:47:09 ق.ظ -- No Person -- Application End
+12:39:44 ب.ظ -- No Person -- Application Start
+12:50:50 ب.ظ -- No Person -- Application End
+12:56:02 ب.ظ -- No Person -- Application Start
+12:56:20 ب.ظ -- اسماعیل رحیمی (4498) -- ورود به سیستم آموزش
+12:58:39 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:04:25 ب.ظ -- No Person -- Application End
+01:04:46 ب.ظ -- No Person -- Application Start
+01:05:52 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:18:33 ب.ظ -- No Person -- Application End
+01:19:26 ب.ظ -- No Person -- Application Start
+01:19:56 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:20:56 ب.ظ -- No Person -- Application End
+01:21:13 ب.ظ -- No Person -- Application Start
+01:22:36 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:24:12 ب.ظ -- No Person -- Application End
+01:24:20 ب.ظ -- No Person -- Application Start
+01:24:45 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:28:03 ب.ظ -- No Person -- Application End
+01:28:29 ب.ظ -- No Person -- Application Start
+01:28:50 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:30:47 ب.ظ -- No Person -- Application End
+01:32:36 ب.ظ -- No Person -- Application Start
+01:32:54 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:39:18 ب.ظ -- No Person -- Application End
+01:40:11 ب.ظ -- No Person -- Application Start
+01:41:27 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:43:11 ب.ظ -- No Person -- Application End
+01:43:20 ب.ظ -- No Person -- Application Start
+01:43:47 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+01:57:15 ب.ظ -- No Person -- Application End
+01:58:45 ب.ظ -- No Person -- Application Start
+01:59:07 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+02:03:22 ب.ظ -- No Person -- Application End
+02:03:35 ب.ظ -- No Person -- Application Start
+02:03:54 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+02:10:40 ب.ظ -- No Person -- Application End
+02:10:51 ب.ظ -- No Person -- Application Start
+02:11:06 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+02:25:13 ب.ظ -- No Person -- Application End
+02:25:22 ب.ظ -- No Person -- Application Start
+02:27:57 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+02:59:46 ب.ظ -- No Person -- Application End
+03:00:50 ب.ظ -- No Person -- Application Start
+03:01:04 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+03:15:22 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+03:31:23 ب.ظ -- No Person -- Application End
+03:33:22 ب.ظ -- No Person -- Application Start
+03:33:58 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+03:34:24 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+03:35:06 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+03:51:23 ب.ظ -- No Person -- Application End
+03:54:05 ب.ظ -- No Person -- Application Start
+03:55:46 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+03:56:27 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+04:00:44 ب.ظ -- No Person -- Application End
+04:01:31 ب.ظ -- No Person -- Application Start
+04:02:34 ب.ظ -- رخسار ایوبی ایوبلو (27431) -- ورود به سیستم آموزش
+04:04:44 ب.ظ -- سجاد کشاورز (27537) -- ورود به سیستم آموزش
+05:17:49 ب.ظ -- No Person -- Application Start
